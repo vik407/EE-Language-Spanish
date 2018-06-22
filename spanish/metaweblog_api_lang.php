@@ -1,151 +1,117 @@
 <?php
+
 $lang = array(
 
+'closed' => 'Closed',
 
-"metaweblog_api_module_name" =>
-"API de Metaweblog",
+'configuration_created' => 'Configuration Created',
 
-"metaweblog_api_module_description" =>
-"Módulo de API de Metaweblog",
+'configuration_created_desc' => 'The configuration <b>%s</b> has been created.',
 
-"metaweblog_api_home" =>
-"Panel de Control",
+'configuration_not_created' => 'Cannot Create Configuration',
 
-"api_urls" =>
-"Ver URLs para API de MetaWeblog",
+'configuration_not_created_desc' => 'We were unable to create this configuration, please review and fix errors below.',
 
-"invalid_access" =>
-"Acceso Inválido",
+'configuration_not_updated' => 'Cannot Update Configuration',
 
-"no_channels_found" =>
-"No se encontraron Canales para este usuario.",
+'configuration_not_updated_desc' => 'We were unable to update this configuration, please review and fix errors below.',
 
-"invalid_channel" =>
-"Selección de Canal Inválida",
+'configuration_updated' => 'Configuration Updated',
 
-"invalid_categories" =>
-"Selección de Categorias Inválida",
+'configuration_updated_desc' => 'The configuration <b>%s</b> has been updated.',
 
-"no_entries_found" =>
-"No Se Encontraron Entradas",
+'configurations' => 'Configuration',
 
-"no_entry_found" =>
-"Entrada no encontrada en la base de datos",
+'configurations_removed' => 'Configurations removed',
 
-"unauthorized_action" =>
-"No tienes autorización para realizar esta acción.",
+'configurations_removed_desc' => '%d configurations were removed.',
 
-"entry_uneditable" =>
-"No tiene permiso para editar esta entrada. Por favor revisa los permisos de grupo",
+'create_metaweblog' => 'Create MetaWeblog',
 
-"no_metaweblog_configs" =>
-"Actualmente no hay Configuraciones de API de MetaWeblog",
+'create_new' => 'Create New',
 
-"metaweblog_configurations" =>
-"Configuraciones de API de MetaWeblog",
+'do_not_set' => 'Do not set',
 
-"metaweblog_config_name" =>
-"Nombre",
+'edit_metaweblog' => 'Edit MetaWeblog',
 
-"metaweblog_config_url" =>
-"URL",
+'entry_uneditable' => 'You do not have permission to edit this entry. Please check member group permissions',
 
-"metaweblog_delete_confirm" =>
-"Borrar Configuraciones de API de MetaWeblog",
+'invalid_access' => 'Invalid Access',
 
-"metaweblog_deleted" =>
-"Configuración de API de MetaWeblog Borrada",
+'invalid_categories' => 'Invalid Categories Selection',
 
-"metaweblogs_deleted" =>
-"Configuraciónes de API de MetaWeblog Borradas",
+'invalid_channel' => 'Invalid Channel Selection',
 
-"metaweblog_delete_question" =>
-"Estás seguro que deseas borrar las Configuraciones de API de MetaWeblogs seleccionadas?",
+'invalid_file_content' => 'The file you are attempting to upload has invalid content for its MIME type',
 
-"delete" =>
-"Borrar",
+'metaweblog_api_module_description' => 'Metaweblog API Module',
 
-"new_config" =>
-"Configuración Nueva",
+'metaweblog_api_module_name' => 'Metaweblog API',
 
-"modify_config" =>
-"Modificar Configuración",
+'metaweblog_channel' => 'Channel',
 
-"configuration_options" =>
-"Opciones de Configuración",
+'metaweblog_channel_desc' => 'Default channel for this MetaWeblog. Used for the following settings.',
 
-"metaweblog_pref_name" =>
-"Nombre de Configuración",
+'metaweblog_config_name' => 'Name',
 
-"metaweblog_parse_type" =>
-"Preferencia de Formato de Texto",
+'metaweblog_config_url' => 'URL',
 
-"metaweblog_parse_type_subtext" =>
-"Habilitar esto imprimirá el contenido de esta entrada como si fuera presentada en una página web con todo el CódigoBB y directorios de archivos.",
+'metaweblog_content_field' => 'Content',
 
-"yes" =>
-"Si",
+'metaweblog_content_field_desc' => 'Field used for content.',
 
-"no" =>
-"No",
+'metaweblog_create' => 'Create Configuration',
 
-"none" =>
-"Ninguno",
+'metaweblog_create_new' => 'Create New Configuration',
 
-"metaweblog_field_group" =>
-"Grupo de Campo de Canal",
+'metaweblog_entry_status' => 'Status',
 
-"metaweblog_excerpt_field" =>
-"Campo de Extracto",
+'metaweblog_entry_status_desc' => 'Default status to use for entries from this MetaWeblog.',
 
-"metaweblog_content_field" =>
-"Campo de Contenido",
+'metaweblog_excerpt_field' => 'Excerpt',
 
-"metaweblog_more_field" =>
-"Campo de Mas",
+'metaweblog_excerpt_field_desc' => 'Field used for excerpt.',
 
-"metaweblog_keywords_field" =>
-"Campo de Palabras Clave",
+'metaweblog_keywords_field' => 'Keywords',
 
-"metaweblog_mising_fields" =>
-"Un Campo Fué Dejado Vacio",
+'metaweblog_keywords_field_desc' => 'Field used for keywords.',
 
-"configuration_created" =>
-"Configuración Creada",
+'metaweblog_mising_fields' => 'A Field was Left Blank',
 
-"configuration_updated" =>
-"Configuración Actualizada",
+'metaweblog_more_field' => 'More',
 
-"metaweblog_create_new" =>
-"Crear Configuración Nueva",
+'metaweblog_more_field_desc' => 'Field used for more.',
 
-"unable_to_upload" =>
-"No se Puede Cargar el Archivo",
+'metaweblog_parse_type' => 'Use default text formatting preferences?',
 
-"invalid_file_content" =>
-"El archivo que intentas cargar tiene contenido inválido para su tipo de MIME",
+'metaweblog_parse_type_desc' => 'When enabled, content will be sent with custom field text formatting intact.',
 
-"metaweblog_upload_dir" =>
-"Directorio de Carga para Carga de Archivos",
+'metaweblog_pref_name' => 'Name',
 
-"metaweblog_upload_dir_subtext" =>
-"Relativamente pocos editores de canal permiten esta opción y probablemente no desearias cargar archivo por medio del API, entonces seleccionando &#39;Ninguno&#39; previene que se carguen archivos via el editor de canal.",
+'metaweblog_settings' => 'MetaWeblog <abbr title="Application Programming Interface">API</abbr> Settings',
 
-"metaweblog_entry_status" =>
-"Estatus de Entrada",
+'metaweblog_upload_dir' => 'Allowed directory',
 
-"do_not_set_status" =>
-"No Establecer Estatus (Cliente dedice)",
+'metaweblog_upload_dir_desc' => 'Default directory to store files uploaded with this MetaWeblog.',
 
-"auto_br" =>
-"Auto &lt;br /&gt;",
+'new_entry_errors' => 'Entry validation errors: ',
 
-"xhtml" =>
-"XHTML",
+'no_channels_found' => 'No Channels found for this user.',
 
-"translate" =>
-"Update",
+'no_configurations' => 'No Configurations',
 
-''=>''
+'no_entries_found' => 'No Entries Found',
+
+'no_entry_found' => 'Entry not found in the database',
+
+'no_metaweblog_configs' => 'There are currently no MetaWeblog API Configurations',
+
+'open' => 'Open',
+
+'unable_to_upload' => 'Unable to Upload File',
+
+'unauthorized_action' => 'You are not authorized to perform this action.',
+
 );
-?>
+
+// EOF

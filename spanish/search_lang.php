@@ -1,232 +1,157 @@
 <?php
+
 $lang = array(
 
+'any_category' => 'Any Category',
 
-"search_module_name" =>
-"Busqueda",
+'any_field' => 'Any Field',
 
-"search_module_description" =>
-"Modulo de Busqueda",
+'categories' => 'Categories',
 
-"search_no_stopwords" =>
-"Tu termino de busqueda incluye palabras que no estan permitidas en la busqueda.",
+'date_since' => 'Since',
 
-"search_exact_word" =>
-"Buscar por Palabra Exacta",
+'none_of_these_words' => 'None of these words',
 
-"search_any_words" =>
-"Buscar por Cualquier Palabra",
+'past_month' => 'Past Month',
 
-"search_all_words" =>
-"Buscar por Todas las Palabras",
+'past_six_months' => 'Past Six Months',
 
-"search_keywords" =>
-"Palabras Clave",
+'past_week' => 'Past Week',
 
-"search_total_results" =>
-"Total de Resultados de Búsqueda",
+'past_year' => 'Past Year',
 
-"search_channel" =>
-"Canal",
+'rebuild_search_index' => 'Rebuild Search Index',
 
-"search_excerpt" =>
-"Extracto",
+'search' => 'Search',
 
-"search_author" =>
-"Autor",
+'search_all_groups' => 'Search All Member Groups',
 
-"search_any_channel" =>
-"Cualquier Canal",
+'search_all_words' => 'Search for All Words',
 
-"search_total_comments" =>
-"Total de Comentarios",
+'search_also_search_comments' => 'Also search in comments',
 
-"search_recent_comment_date" =>
-"Comentario Reciente",
+'search_any_category' => 'Any Category',
 
-"search_by_keyword" =>
-"Buscar por Palabra Clave",
+'search_any_channel' => 'Any Channel',
 
-"search_in_titles" =>
-"Buscar en Títulos",
+'search_any_date' => 'Any date',
 
-"search_entries" =>
-"Buscar en Títulos y Entradas",
+'search_any_words' => 'Search for Any Word',
 
-"search_everywhere" =>
-"Buscar en Títulos, Entradas, y Comentarios",
+'search_ascending' => 'Ascending',
 
-"search_exact_phrase_match" =>
-"Concordar Palabra Exacta",
+'search_author' => 'Author',
 
-"search_by_member_name" =>
-"Buscar por Nombre de Miembro",
+'search_by_keyword' => 'Search by Keyword',
 
-"search_by_member_group" =>
-"Buscar por Grupo de Miembro",
+'search_by_member_group' => 'Search by Member Group',
 
-"switch_to_group" =>
-"Cambiar a Búsqueda de Grupo",
+'search_by_member_name' => 'Search by Member Name',
 
-"switch_to_name" =>
-"Cambiar a Búsqueda de Nombre",
+'search_categories' => 'Categories',
 
-"search_all_groups" =>
-"Buscar Todos los Grupos de Miembro",
+'search_channel' => 'Channel',
 
-"search_exact_name_match" =>
-"Concordar Nombre Exacto",
+'search_channels' => 'Channels',
 
-"search_channels" =>
-"Canales",
+'search_content_from' => 'Search Content From',
 
-"search_categories" =>
-"Categorias",
+'search_date' => 'Date',
 
-"search_also_search_comments" =>
-"También buscar en comentarios",
+'search_descending' => 'Descending',
 
-"search_any_date" =>
-"Cualquier fecha",
+'search_engine' => 'Search Engine',
 
-"search_today_and" =>
-"Hoy y...",
+'search_entries' => 'Search in Titles and Entries',
 
-"search_this_week_and" =>
-"Esta Semana y...",
+'search_entries_from' => 'Search Entries From',
 
-"search_one_month_ago_and" =>
-"1 Mes Atras y...",
+'search_everywhere' => 'Search in Titles, Entries and Comments',
 
-"search_three_months_ago_and" =>
-"3 Meses Atras y...",
+'search_exact_name_match' => 'Exact Name Match',
 
-"search_six_months_ago_and" =>
-"6 Meses Atras y...",
+'search_exact_phrase_match' => 'Exact Phrase Match',
 
-"search_one_year_ago_and" =>
-"1 Año Atras y...",
+'search_exact_word' => 'Search for Exact Word',
 
-"search_newer" =>
-"Mas Nuevo",
+'search_excerpt' => 'Excerpt',
 
-"search_older" =>
-"Mas Antiguo",
+'search_in' => 'Search In',
 
-"search_sort_results_by" =>
-"Ordenar Resultados Por",
+'search_in_articles' => 'Search in Articles',
 
-"search_date" =>
-"Fecha",
+'search_in_channels' => 'Search in Channels',
 
-"search_title" =>
-"Título",
+'search_in_titles' => 'Search in Titles',
 
-"search_most_comments" =>
-"Mayoria de Comentarios",
+'search_in_titles_articles' => 'Search in Titles and Articles',
 
-"search_recent_comment" =>
-"Comentarios Mas Recientes",
+'search_keywords' => 'Keywords',
 
-"search_descending" =>
-"Descendiente",
+'search_min_length' => 'Search terms must be at least %x characters in length',
 
-"search_ascending" =>
-"Ascendente",
+'search_max_length' => 'Search terms must be no more than %x characters in length',
 
-"search_entries_from" =>
-"Buscar Entradas Desde",
+'search_module_description' => 'Search module',
 
-"search_any_category" =>
-"Cualquier Categoría",
+'search_module_name' => 'Search',
 
-"search_engine" =>
-"Motor de Búsqueda",
+'search_most_comments' => 'Most Comments',
 
-"search" =>
-"Buscar",
+'search_newer' => 'Newer',
 
-"search_path_error" =>
-"La ruta de búsqueda contiene un error. Por favor contacta al administrador del sistema.",
+'search_no_keywords' => 'You did not submit a search term',
 
-"search_not_allowed" =>
-"No tienes permiso para utilizar el motor de búsqueda.",
+'search_no_result' => 'Your search did not return any results.',
 
-"search_no_keywords" =>
-"No enviastes un término de búsqueda",
+'search_no_stopwords' => 'Your search term included common words that are not allowed to be searched.',
 
-"search_min_length" =>
-"Términos de búsqueda deben tener al menos %x caracteres",
+'search_not_allowed' => 'You are not permitted to use the search engine.',
 
-"search_result_heading" =>
-"Resultados de Búsqueda:",
+'search_older' => 'Older',
 
-"search_no_result" =>
-"Tu búsqueda no retorno resultados",
+'search_one_month_ago_and' => '1 Month Ago and...',
 
-"search_time_not_expired" =>
-"Solo puedes buscar cada %x segundos.",
+'search_one_year_ago_and' => '1 Year Ago and...',
 
-"search_results" =>
-"Resultados de Búsqueda",
+'search_path_error' => 'The search path contains an error. Please contact the system administrator.',
 
-"search_type" =>
-"Tipo de Búsqueda",
+'search_recent_comment' => 'Most Recent Comment',
 
-"none_of_these_words" =>
-"Ninguna de estas palabras",
+'search_recent_comment_date' => 'Recent Comment',
 
-"search_in" =>
-"Buscar En",
+'search_result_heading' => 'Search Results:',
 
-"search_in_channels" =>
-"Buscar en Canales",
+'search_results' => 'Search Results',
 
-"any_field" =>
-"Cualquier Campo",
+'search_six_months_ago_and' => '6 Months Ago and...',
 
-"search_in_articles" =>
-"Buscar en Artículos",
+'search_sort_results_by' => 'Sort Results By',
 
-"search_in_titles_articles" =>
-"Buscar en Títulos y Artículos",
+'search_this_week_and' => 'This Week and...',
 
-"search_content_from" =>
-"Formulario de Búsqueda de Contenido",
+'search_three_months_ago_and' => '3 Months Ago and...',
 
-"date_since" =>
-"Desde",
+'search_time_not_expired' => 'You are only allowed to search every %x seconds.',
 
-"today" =>
-"Hoy",
+'search_title' => 'Title',
 
-"past_week" =>
-"Semana Pasada",
+'search_today_and' => 'Today and...',
 
-"past_month" =>
-"Mes Pasado",
+'search_total_comments' => 'Total Comments',
 
-"past_six_months" =>
-"Ultimos Seis Meses",
+'search_total_results' => 'Total Search Results:',
 
-"past_year" =>
-"Ultimo Año",
+'search_type' => 'Search Type',
 
-"categories" =>
-"Categorias",
+'searched_for' => 'Searched for:',
 
-"any_category" =>
-"Cualquier Categoria",
+'switch_to_group' => 'Switch to Group Search',
 
-"rebuild_search_index" =>
-"Reconstruir Indice de Búsqueda",
+'switch_to_name' => 'Switch to Name Search',
 
-"searched_for" =>
-"Busqueda por:",
+'today' => 'Today',
 
-"translate" =>
-"Update",
-
-''=>''
 );
-?>
+
+// EOF

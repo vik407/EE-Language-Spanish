@@ -1,221 +1,153 @@
 <?php
+
 $lang = array(
 
+'all_email_sent_message' => 'All emails have been sent',
 
-'your_name' => 
-'Tu Nombre',
+'attachment' => 'Attachment',
 
-'your_email' => 
-'Tu Correo',
+'attachment_problem' => 'There was a problem attaching your file.',
 
-'recipient' => 
-'Recipiente',
+'attachment_unavailable' => 'For attachments to be sent, an upload location needs to be defined.',
 
-'cc' => 
-'CC',
+'attachment_warning' => 'Attachments are <strong>not saved</strong> by ExpressionEngine, and must be saved locally.',
 
-'bcc' => 
-'BCC',
+'batchmode_disabled' => 'Batch Mode is disabled',
 
-'recipient_group' => 
-'Enviar a Grupos de Miembro',
+'batchmode_ready_to_begin' => 'The email sending routine will begin in five seconds',
 
-'manual_recipients_ignored' => 
-'El campo de recibo anterior sera ignorado',
+'batchmode_warning' => 'Do not touch your browser until the process is completely finished!',
 
-'send_to_mailinglist' => 
-'Enviar a Listas de Correo',
+'batch_size_is_zero' => 'Batch mode enabled, but batch size is not set properly. Check your <a href="'.DOC_URL.'/general/system_configuration_overrides.html#email-batch-size" rel="external">Email Configuration Overrides</a> in your config file.',
 
-'honor_email_pref' => 
-'Enviar solo a miembros que han escodigo aceptar email',
+'bcc' => 'BCC',
 
-'separate_emails_with_comma' => 
-'Separa multiples direcciones de correo con un coma',
+'cache_data_missing' => 'The email cache data was not located.',
 
-'no_email_matching_criteria' => 
-'No hay direcciones de correo que concuerdan con tu criterio seleccionado',
+'cc' => 'CC',
 
-'not_allowed_to_email_members' => 
-'No tienes permitido enviar correo a miembros',
+'chars' => 'characters',
 
-'not_allowed_to_email_member_groups' => 
-'No tienes permitido enviar correos a Grupos de Miembro',
+'complete' => 'Complete',
 
-'not_allowed_to_email_mailinglist' => 
-'No tienes permitido enviar correo a la lista de correo',
+'currently_sending_batch' => 'Now sending emails %x through %y',
 
-'subject' => 
-'Tema',
+'delete_confirm' => 'Delete Email Confirmation',
 
-'message' => 
-'Mensaje',
+'delete_emails' => 'Delete Email',
 
-'plaintext_alt' => 
-'Alternativa de Texto Simple (opcional, correos de solo HTML, sin formato de texto aplicado)',
+'delete_question' => 'Are you sure you want to delete the specified email(s)?',
 
-'send_an_email' => 
-'Enviar un Email',
+'dummy_location' => 'The email was output to: %s',
 
-'sending_email' => 
-'Enviando Email',
+'email_date' => 'Date Sent',
 
-'batchmode_ready_to_begin' => 
-'La rutina de envio de correo empezara en cinco segundos',
+'email_deleted' => 'Email has been deleted',
 
-'batchmode_warning' => 
-'No toques tu explorador hasta que el proceso termine por completo!',
+'email_error' => 'Email error',
 
-'problem_with_id' => 
-'En problema fue encontrado con el ID necesario para enviar correos',
+'email_sent_message' => 'Your email has been sent',
 
-'cache_data_missing' => 
-'Los datos de cache de email no fueron encontrados.',
+'email_success' => 'Email Sent',
 
-'currently_sending_batch' => 
-'Ahora enviando correos %x hasta %y',
+'email_title' => 'Email Title',
 
-'emails_remaining' => 
-'Correos Restantes:',
+'emails' => 'Emails',
 
-'email_error' => 
-'Error de Email',
+'emails_remaining' => 'Emails Remaining:',
 
-'send_it' => 
-'Enviarlo',
+'empty_form_fields' => 'You left some fields empty.',
 
-'total_emails_sent' => 
-'Cantidad total de emails enviados:',
+'finish_sending' => 'Finish Sending',
 
-'plain_text' => 
-'Texto Simple',
+'high' => 'High',
 
-'html' => 
-'HTML',
+'highest' => 'Highest',
 
-'mail_format' => 
-'Formato de Email',
+'honor_email_pref' => 'Send only to members who have chosen to accept email',
 
-'text_formatting' => 
-'Formato de Texto',
+'html' => 'HTML',
 
-'none' => 
-'Ninguno',
+'incomplete' => 'Incomplete',
 
-'auto_br' => 
-'&lt;br /&gt; auto',
+'low' => 'Low',
 
-'xhtml' => 
-'XHTML',
+'lowest' => 'Lowest',
 
-'wordwrap' => 
-'Envoltura Word',
+'mail_format' => 'Email Formatting',
 
-'priority' => 
-'Prioridad',
+'manual_recipients_ignored' => 'The recipient field above will be ignored',
 
-'attachment' => 
-'Adjunto',
+'markdown' => 'Markdown',
 
-'attachment_problem' => 
-'Hubo un problema adjuntando tu archivo.',
+'message' => 'Message',
 
-'attachment_unavailable' => 
-'Para que se envien adjuntos, una ubicacion de carga debe ser definida.',
+'no_cached_email' => 'No <b>cached emails</b> found.',
 
-'attachment_warning' => 
-'Adjuntos no son guardados por ExpressionEngine, y deben ser guardados localmente.',
+'no_email_matching_criteria' => 'There were no email addresses matching the criteria you selected',
 
-'chars' => 
-'caracteres',
+'normal' => 'Normal',
 
-'highest' => 
-'Mas Alto',
+'not_allowed_to_email_cache' => 'You are not allowed to view the email cache.',
 
-'high' => 
-'Alto',
+'not_allowed_to_email_member_groups' => 'You are not allowed to email Member Groups',
 
-'normal' => 
-'Normal',
+'not_allowed_to_email_members' => 'You are not allowed to email members',
 
-'low' => 
-'Bajo',
+'off' => 'Off',
 
-'lowest' => 
-'Mas Bajo',
+'on' => 'On',
 
-'empty_form_fields' => 
-'Dejastes algunos campos sin llenar.',
+'plain_text' => 'Plain Text',
 
-'email_sent_message' => 
-'To correo ha sido enviado',
+'plaintext_alt' => 'Alternate content for your <abbr title="Hyper-Text Markup Language">HTML</abbr> Email, will be delivered in Plain Text, when an Email application cannot render <abbr title="Hyper-Text Markup Language">HTML</abbr>.',
 
-'all_email_sent_message' => 
-'Todos los correos han sido enviados',
+'plaintext_body' => 'Plain text body',
 
-'email_success' => 
-'Correo Enviado',
+'previous_email' => 'Previously Sent Email',
 
-'view_email_cache' => 
-'Ver Correos Enviados Previamente',
+'priority' => 'Priority',
 
-'previous_email' => 
-'Correo Enviado Previamente',
+'problem_with_id' => 'A problem was encountered with the ID number needed to send emails',
 
-'email_title' => 
-'Titulo de Correo',
+'recipient' => 'Recipient',
 
-'email_date' => 
-'Fecha Enviado',
+'recipient_group' => 'Send to Member Groups',
 
-'total_recipients' => 
-'Total de Recipientes',
+'remove' => 'Remove',
 
-'resend' => 
-'Re-enviar',
+'resend' => 'Re-send',
 
-'view' => 
-'Ver',
+'search_emails_button' => 'Search Emails',
 
-'no_cached_email' => 
-'No hay correos en cache',
+'send_an_email' => 'Send an Email',
 
-'delete_emails' => 
-'Borrar Correo',
+'send_it' => 'Send it',
 
-'delete_confirm' => 
-'Borrar Configuracion de Correo',
+'sending_email' => 'Sending Email',
 
-'delete_question' => 
-'Estas seguro que quieres borrar los correos especificados?',
+'separate_emails_with_comma' => 'Separate multiple addresses with a comma',
 
-'bad_cache_ids' => 
-'No hay correos que concuerdan con los criterios seleccionados',
+'subject' => 'Subject',
 
-'email_deleted' => 
-'Correo ha sido borrado',
+'text_formatting' => 'Text Formatting',
 
-'mailinglist_unsubscribe' => 
-'Para remover tu correo de la lista de correo, haz click aqui:',
+'total_emails_sent' => 'Total number of emails sent:',
 
-'mailinglist_unsubscribe_all' => 
-'Para remover tu correo de todas las listas de correo, haz click aqui:',
+'total_recipients' => 'Total Recipients',
 
-'complete' => 
-'Completo',
+'total_sent' => 'Total Sent',
 
-'incomplete' => 
-'Incompleto',
+'view' => 'View',
 
-'on' => 
-'Encendido',
+'view_email_cache' => 'Sent Emails',
 
-'off' => 
-'Apagado',
+'wordwrap' => 'Word Wrapping',
 
-'translate' => 
-'Update',
+'your_email' => 'Your email',
 
-''=>''
+'your_name' => 'Your Name',
+
 );
 
-// End of File
+// EOF

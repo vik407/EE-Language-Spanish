@@ -1,140 +1,186 @@
 <?php
+
 $lang = array(
 
+/* Sidebar Menu */
+'addon' => 'Add-On',
 
-'addons' => 
-'Add-ons',
+'addon_manager' => 'Add-On Manager',
 
-'accessories' => 
-'Accesorios',
+'addons' => 'Add-Ons',
 
-'modules' => 
-'Modulos',
+'all_addons' => 'All Add-Ons',
 
-'extensions' => 
-'Extensiones',
+'author' => 'Author',
 
-'plugins' => 
-'Plugins',
+'available_parameters' => 'Available Parameters',
 
-'accessory' => 
-'Accesorio',
+'example_usage' => 'Example Usage',
 
-'module' => 
-'Modulo',
+'manage_addon_extensions' => 'Manage Add-on Extensions',
 
-'extension' => 
-'Extension',
+'manage_extensions' => 'Manage Extensions',
 
-'addons_accessories' => 
-'Accesorios',
+'manual' => 'Manual',
 
-'addons_modules' => 
-'Modulos',
+'no_addon_extensions_search_results' => 'No <b>Add-on Extensions</b> Found',
 
-'addons_plugins' => 
-'Plugins',
+'no_addon_search_results' => 'No <b>Add-Ons</b> Found',
 
-'addons_extensions' => 
-'Extensiones',
+'requested_module_not_installed' => 'The requested module is not installed:',
 
-'addons_fieldtypes' => 
-'Typos de Campo',
+'search_addons_button' => 'search add-ons',
 
-'accessory_name' => 
-'Nombre de Accesorio',
+'show_all_addons' => 'All %d Add-Ons',
 
-'fieldtype_name' => 
-'Nombre de Tipo de Campo',
+'third_party_addons' => 'Third Party Add-Ons',
 
-'install' => 
-'Instalar',
+'update' => 'Update',
 
-'uninstall' => 
-'Desinstalar',
+'update_to_version' => 'Update to %s',
 
-'installed' => 
-'Instalado',
 
-'not_installed' => 
-'No Instalado',
+/* confirm uninstall modal */
+'btn_confirm_and_uninstall' => 'Confirm, and Uninstall',
 
-'uninstalled' => 
-'Desinstalado',
+'btn_confirm_and_uninstall_working' => 'Uninstalling...',
 
-'remove' => 
-'Remover',
+'confirm_uninstall' => 'Confirm Uninstall',
 
-'preferences_updated' => 
-'Preferencias Actualizadas',
+'confirm_uninstall_desc' => 'You are attempting to uninstall the following items, please confirm this action.',
 
-'extension_enabled' => 
-'Extension Habiltada',
 
-'extension_disabled' => 
-'Extension Deshabilitada',
+/* Filters */
+'addons_installed' => 'Add-Ons Installed',
 
-'extensions_enabled' => 
-'Extensiones Habilitadas',
+'addons_installed_desc' => 'The following add-on(s) have been installed: ',
 
-'extensions_disabled' => 
-'Extensiones Deshabilitadas',
+'addons_not_installed' => 'Add-Ons Not Installed',
 
-'delete_fieldtype_confirm' => 
-'Estas seguro que deseas remover este tipo de campo?',
+'existing_consent_request' => 'The following add-on(s) could not be installed due to an existing Consent Request which the add-on(s) are trying to create:',
 
-'delete_fieldtype' => 
-'Remover Tipo de Campo',
+'contact_developer' => 'Please contact the add-on developer(s) for assistance.',
 
-'data_will_be_lost' => 
-'Todos los datos relacionados con este tipo de campo, incluyendo datos de canal asociados, seran borrados permanentemente!',
+'addons_uninstalled' => 'Add-Ons Uninstalled',
 
-'global_settings_saved' => 
-'Configuracion Guardada',
+'addons_uninstalled_desc' => 'The following add-on(s) have been uninstalled: ',
 
-'package_settings' => 
-'Configuracion de Paquete',
+'addons_updated' => 'Add-Ons Updated',
 
-'component' => 
-'Componente',
+'addons_updated_desc' => 'The following add-on(s) have been updated: ',
 
-'current_status' => 
-'Estatus Actual',
+'btn_save_settings' => 'Save Settings',
 
-'available_to_member_groups' => 
-'Disponible a Grupos de Miembro',
+'custom_limit' => 'custom limit',
 
-'specific_page' => 
-'Pagina Espcifica?',
+'developer' => 'developer',
 
-'description' => 
-'Descripcion',
+'entries' => 'Entries',
 
-'version' => 
-'Version',
+'extension_class_does_not_exist' => 'Class %c does not exist in (%f)',
 
-'status' => 
-'Estatus',
+'filter_by_status' => 'status',
 
-'edit_accessory_preferences' => 
-'Editar Preferencias de Accesorio',
+'install' => 'Install',
 
-'member_group_assignment' => 
-'Grupos de Miembro Asignados',
+'installed' => 'Installed',
 
-'page_assignment' => 
-'Paginas Asignadas',
+'needs_updates' => 'Needs Updates',
 
-'none' => 
-'Ninguno',
+'settings_saved' => 'Settings Saved',
 
-'and_more' => 
-'y %x mas...',
+'settings_saved_desc' => 'The settings for %s have been saved.',
 
-'translate' => 
-'Update',
+'uninstall' => 'Uninstall',
 
-''=>''
+'uninstalled' => 'Uninstalled',
+
+
+/* 2.x */
+'addons_extensions' => 'Extensions',
+
+'addons_fieldtypes' => 'Fieldtypes',
+
+'addons_modules' => 'Modules',
+
+'addons_plugins' => 'Plugins',
+
+'and_more' => 'and %x more...',
+
+'available_to_member_groups' => 'Available to Member Groups',
+
+'component' => 'Component',
+
+'configuration' => 'Configuration',
+
+'current_status' => 'Current Status',
+
+'delete_fieldtype' => 'Remove Fieldtype',
+
+'delete_fieldtype_confirm' => 'Are you sure you want to remove this fieldtype?',
+
+'description' => 'Description',
+
+'ext_disabled_short' => 'disabled',
+
+'ext_enabled_short' => 'enabled',
+
+'extension' => 'Extension',
+
+'extension_disabled' => 'Extension Disabled',
+
+'extension_enabled' => 'Extension Enabled',
+
+'extensions' => 'Extensions',
+
+'extensions_disabled' => 'Extensions Disabled',
+
+'extensions_disabled_desc' => 'Extensions have been disabled.',
+
+'extensions_disabled_warning' => 'In order to install this add-on you need to enable extensions. Do you want to enable extensions?',
+
+'extensions_enabled' => 'Extensions Enabled',
+
+'extensions_enabled_desc' => 'Extensions have been enabled.',
+
+'fieldtype' => 'Fieldtype',
+
+'fieldtype_data_will_be_lost' => 'All data associated with this fieldtype, including all associated channel data, will be permanently deleted!',
+
+'fieldtype_name' => 'Fieldtype Name',
+
+'global_settings_saved' => 'Settings Saved',
+
+'member_group_assignment' => 'Assigned Member Groups',
+
+'module' => 'Module',
+
+'modules' => 'Modules',
+
+'no_extension_id' => 'No Extension Specified',
+
+'none' => 'None',
+
+'not_installed' => 'Not Installed',
+
+'package_settings' => 'Package Settings',
+
+'page_assignment' => 'Assigned Pages',
+
+'plugins' => 'Plugins',
+
+'plugins_not_available' => 'Plugin Feed Disabled in Beta Version.',
+
+'remove' => 'Remove',
+
+'required_by' => 'Required by:',
+
+'rte_tool' => 'Rich Text Editor Tool',
+
+'specific_page' => 'Specific Page?',
+
+'version' => 'Version',
+
 );
 
-// End of File
+// EOF

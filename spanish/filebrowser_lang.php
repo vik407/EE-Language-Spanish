@@ -1,59 +1,39 @@
 <?php
+
 $lang = array(
 
+'fb_insert_file' => 'Insert File',
 
-'file_browser' => 
-'Explorador de Archivos',
+'fb_insert_files' => 'Insert Files',
 
-'view' => 
-'Ver',
+'fb_insert_link' => 'Insert Link',
 
-'path_does_not_exist' => 
-'La ruta especificada no existe',
+'fb_insert_links' => 'Insert Links',
 
-'file_viewing_error' => 
-'Un error de tipo desconocido fue encontrado.',
+'fb_insert_url' => 'Insert URL',
 
-'fp_no_files' => 
-'No hay archivos disponibles en el directorio.',
+'fb_insert_urls' => 'Insert URLs',
 
-'fb_view_images' => 
-'Ver Imagenes',
+'fb_non_images' => '* Indicates non-images. Only images can be viewed.',
 
-'fb_view_image' => 
-'Ver Imagen',
+'fb_select_field' => 'Select Field',
 
-'fb_insert_file' => 
-'Insertar Archivo',
+'fb_select_files' => 'Select Files',
 
-'fb_insert_files' => 
-'Insertar Archivos',
+'fb_view_image' => 'View Image',
 
-'fb_select_field' => 
-'Seleccionar Campo',
+'fb_view_images' => 'View Images',
 
-'fb_select_files' => 
-'Seleccionar Archivos',
+'file_browser' => 'File Browser',
 
-'fb_non_images' => 
-'* Indica no imagenes. Solo imagenes pueden ser vistas.',
+'file_viewing_error' => 'An error of an unknown type was encountered.',
 
-'fb_insert_link' => 
-'Insertar Enlace',
+'fp_no_files' => 'No files available in directory.',
 
-'fb_insert_links' => 
-'Insertar Enlaces',
+'path_does_not_exist' => 'The specified path does not exist',
 
-'fb_insert_url' => 
-'Insertar URL',
+'view' => 'View',
 
-'fb_insert_urls' => 
-'Insertar URLs',
-
-'translate' => 
-'Update',
-
-''=>''
 );
 
-// End of File
+// EOF

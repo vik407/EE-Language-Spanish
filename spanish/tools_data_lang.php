@@ -1,166 +1,122 @@
 <?php
+
 $lang = array(
 
+/* SQL Manager */
+'analyze' => 'Analyze Tables',
 
-"sql_info" =>
-"Info SQL",
+'browse' => 'Browse',
 
-"sql_utilities" =>
-"Utilidades SQL",
+'database_size' => 'Database Size',
 
-"database_type" =>
-"Tipo de Base de Datos",
+'database_type' => 'Database Type',
 
-"sql_version" =>
-"Versión de Base de Datos",
+'database_uptime' => 'Database Uptime',
 
-"database_size" =>
-"Tamaño de Base de Datos",
+'no_buttons_selected' => 'You must select the tables in which to perform this action',
 
-"database_uptime" =>
-"Tiempo En Linea de Base de Datos",
+'optimize' => 'Optimize SQL Tables',
 
-"total_queries" =>
-"Total de consultas de servidor desde inicio",
+'optimize_table' => 'Optimize selected tables',
 
-"sql_status" =>
-"Info de Estatus",
+'query' => 'SQL Query',
 
-"sql_system_vars" =>
-"Variables de Sistema",
+'query_result' => 'Query Result',
 
-"sql_processlist" =>
-"Lista de Procesos",
+'repair' => 'Repair SQL Tables',
 
-"sql_query_form" =>
-"Formulario de Consultas de Base de Datos",
+'repair_table' => 'Repair selected tables',
 
-"query_result" =>
-"Resultado de Consulta",
+'size' => 'Size',
 
-"query" =>
-"Consulta SQL",
+'sql_good_query' => 'Your query was successful',
 
-"total_results" =>
-"Total de Resultados: %x",
+'sql_info' => 'SQL Info',
 
-"total_affected_rows" =>
-"Total de Filas Afectadas: ",
+'sql_no_result' => 'The query you submitted did not produce any results',
 
-"browse" =>
-"Navegar",
+'sql_not_allowed' => 'Sorry, but that is not one of the allowed query types.',
 
-"tables" =>
-"tablas",
+'sql_processlist' => 'Process List',
 
-"table_name" =>
-"Nombre de Tabla",
+'sql_query_debug' => 'Enable MySQL Error Output',
 
-"records" =>
-"Registros de Base de Datos",
+'sql_query_form' => 'Database Query Form',
 
-"size" =>
-"Tamaño",
+'sql_query_instructions'=> 'Use this form to submit an SQL query',
 
-"type" =>
-"Tipo",
+'sql_status' => 'Status Info',
 
-"analyze" =>
-"Analizar Tablas",
+'sql_system_vars' => 'System Variables',
 
-"optimize" =>
-"Optimizar Tablas SQL",
+'sql_utilities' => 'SQL Utilities',
 
-"repair" =>
-"Reparar Tablas SQL",
+'sql_version' => 'Database Version',
 
-"optimize_table" =>
-"Optimizar tablas seleccionadas",
+'sql_view_database' => 'Manage Database Tables',
 
-"repair_table" =>
-"Reparar tablas seleccionadas",
+'table_name' => 'Table Name',
 
-"no_buttons_selected" =>
-"Debes seleccionar las tablas en las cuales realizar esta acción",
+'tables' => 'tables',
 
-"sql_view_database" =>
-"Gestionar Tablas de Base de Datos",
+'total_affected_rows' => 'Total Affected Rows: ',
 
-"sql_no_result" =>
-"La consulta que has enviado no produjo resultados",
+'total_queries' => 'Total server queries since startup',
 
-"sql_not_allowed" =>
-"Disculpa, pero ese no es uno de los tipos de consultas permitidos.",
+'total_results' => 'Total Results: %x',
 
-"sql_query_instructions" =>
-"Utiliza este formulario para enviar una consulta SQL",
+'type' => 'Type',
 
-"sql_query_debug" =>
-"Habilitar Salidas de Error MySQL",
 
-"sql_good_query" =>
-"Tu consulta ha sido exitosa",
+/* Clear Caching */
+'cache_deleted' => 'Cache files have been deleted',
 
-"cache_deleted" =>
-"Archivos de cache han sido borrados",
 
-"site_preferences" =>
-"Preferencias de Sitio",
+/* Search and Replace */
+'channel_entry_title' => 'Channel Entry Titles',
 
-"channel_entry_title" =>
-"Títulos de Entrada de Canal",
+'channel_fields' => 'Channel Fields',
 
-"channel_fields" =>
-"Campos de Canal",
+'choose_below' => '(Choose from the following)',
 
-"templates" =>
-"En TODAS las Plantillas",
+'if_replacing_templates'=> 'If you are replacing within templates, <a href="%x">synchronize with the database</a> first, or',
 
-"template_groups" =>
-"Grupos de Plantilla",
+'permanent_data_loss' => 'permanent data loss can occur!',
 
-"rows_replaced" =>
-"Número de registros de base de datos en las cuales una sustitución ocurrió:",
+'rows_replaced' => 'Number of database records in which a replacement occurred:',
 
-"choose_below" =>
-"(Escoge de los siguientes)",
+'site_preferences' => 'Site Preferences',
 
-"recalculate" =>
-"Recontar Estadísticas",
+'template_groups' => 'Template Groups',
 
-"do_recount" =>
-"Realizar Reconteo",
+'templates' => 'In ALL Templates',
 
-"source" =>
-"Fuente",
 
-"recount_info" =>
-"Los siguientes enlaces permiten actualizar varias estadísticas, tal como cuantas entradas ha enviado cada miembro.",
+/* Recount Stats */
+'channel_titles' => 'Channel Entries',
 
-"members" =>
-"Miembros",
+'do_recount' => 'Perform Recount',
 
-"channel_titles" =>
-"Entradas de Canal",
+'forum_topics' => 'Forum Topics',
 
-"site_statistics" =>
-"Estadísticas de Sitio",
+'forums' => 'Forums',
 
-"forums" =>
-"Foros",
+'members' => 'Members',
 
-"forum_topics" =>
-"Temas de Foro",
+'recalculate' => 'Recount Statistics',
 
-"recount_completed" =>
-"Reconteo Completado",
+'records' => 'Database Records',
 
-"recount_prefs" =>
-"Preferencias de Reconteo",
+'recount_completed' => 'Recount Completed',
 
-"translate" =>
-"Update",
+'recount_info' => 'The links below allow you to update various statistics, like how many entries each member has submitted.',
 
-''=>''
+'recount_prefs' => 'Recount Preferences',
+
+'site_statistics' => 'Site Statistics',
+
+'source' => 'Source',
+
 );
-?>
+
+// EOF

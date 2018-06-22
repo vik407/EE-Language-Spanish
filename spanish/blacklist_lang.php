@@ -1,94 +1,101 @@
 <?php
+
 $lang = array(
 
+'blacklist_module_name' => 'Black/White List',
 
-"blacklist_module_name" =>
-"Lista Negra/Lista Blanca",
+'blacklist_module_description' => 'Blacklist and whitelist module',
 
-"blacklist_module_description" =>
-"Modulo de lista negra y lista blanca",
+'add_htaccess_file' => 'Add to .htaccess file?',
 
-"htaccess_written_successfully" =>
-"El archivo .htaccess fue escrito con exito",
+'add_htaccess_file_desc' => 'Full path location of your <mark>.htaccess</mark> file.',
 
-"invalid_htaccess_path" =>
-"Ruta o Permisos Invalidos para archivo .htaccess",
+'btn_save_list' => 'Save List',
 
-"htaccess_server_path" =>
-"Ruta de Servidor para archivo .htaccess",
+'btn_download_blacklist' => 'Download EE Blacklist',
 
-"write_htaccess_file" =>
-"Escribir lista negra a archivo .htaccess?",
+'btn_download_whitelist' => 'Download EE Whitelist',
 
-"whitelist" =>
-"Lista Blanca",
+'btn_save_settings' => 'Save Settings',
 
-"pmachine_whitelist" =>
-"Descargar Lista Blanca de ExpressionEngine.com",
+'settings' => 'Settings',
 
-"whitelist_updated" =>
-"Lista Blanca actualizada exitosamente",
+'lists' => 'Lists',
 
-"ref_whitelist_irretrievable" =>
-"Error: lista blanca nueva fue iremediable.",
+'whitelist' => 'Whitelist',
 
-"ref_view_whitelist" =>
-"Ver Lista Blanca",
+'whitelist_desc' => 'Whitelists <b>allow</b> access to your website via specific <abbr title="Internet Protocol">IP</abbr> address, user agents and <abbr title="Unified Resource Locator">URL</abbr>s.',
 
-"ref_no_whitelist" =>
-"Actualmente no hay nada en la lista blanca",
+'blacklist' => 'Blacklist',
 
-"ref_whitelisted" =>
-"Agregado a Lista Blanca",
+'blacklist_desc' => 'Blacklists <b>disallow</b> access to your website via specific <abbr title="Internet Protocol">IP</abbr> address, user agents and <abbr title="Unified Resource Locator">URL</abbr>s.',
 
-"ref_no_whitelist_table" =>
-"No existe la tabla de lista blanca en base de datos",
+'ip_address' => '<abbr title="Internet Protocol">IP</abbr> address',
 
-"ref_type" =>
-"Tipo de Articulo",
+'ip_address_desc' => '<b>Place each <abbr title="Internet Protocol">IP</abbr> address on a separate line.</b><br>You may use <mark>*</mark> as a wild-card e.g. 123.456.<mark>*</mark>',
 
-"blacklist" =>
-"Lista Negra",
+'user_agent' => 'User Agent',
 
-"pmachine_blacklist" =>
-"Descargar Lista Negra de ExpressionEngine.com",
+'user_agent_desc' => '<b>Place each user agent on a separate line.</b>',
 
-"requires_license_number" =>
-"Requiere Numero de Licencia en Configuracion General",
+'url' => '<abbr title="Unified Resource Locator">URL</abbr>',
 
-"blacklist_updated" =>
-"Lista Negra actualizada exitosamente",
+'url_desc' => '<b>Place each <abbr title="Unified Resource Locator">URL</abbr> on a separate line.</b>',
 
-"ref_no_license" =>
-"Error: sin numero de licencia.",
+'htaccess_path_removed' => '.htaccess Path Removed',
 
-"ref_blacklist_irretrievable" =>
-"Error: la lista negra fue iremediable.",
+'htaccess_path_removed_desc' => 'The .htaccess file path was removed from your configuration',
 
-"ref_view_blacklist" =>
-"Ver Lista Negra",
+'htaccess_written_successfully' => '.htaccess File Updated',
 
-"ref_no_blacklist" =>
-"Actualmente no hay nada en la lista negra",
+'htaccess_written_successfully_desc' => 'The .htaccess file was written successfully.',
 
-"ref_ip" =>
-"Direcciones IP",
+'invalid_htaccess_path' => 'Invalid Path or Permissions for .htaccess file',
 
-"ref_user_agent" =>
-"Agente de Usuario",
+'lists_updated' => 'Lists updated',
 
-"ref_url" =>
-"URL",
+'lists_updated_desc' => 'The blacklist and whitelist were updated successfully.',
 
-"ref_blacklisted" =>
-"Agregado a lista negra",
+'blacklist_downloaded' => 'The blacklist has been updated by being downloaded from ExpressionEngine.',
 
-"ref_no_blacklist_table" =>
-"Table de lista negra no existe en la base de datos",
+'whitelist_downloaded' => 'The whitelist has been updated by being downloaded from ExpressionEngine.',
 
-"translate" =>
-"Update",
+'ee_whitelist' => 'Download ExpressionEngine Whitelist',
 
-''=>''
+'ref_whitelist_irretrievable' => 'Error: New whitelist was irretrievable.',
+
+'ref_view_whitelist' => 'View Whitelist',
+
+'ref_no_whitelist' => 'There is currently nothing whitelisted',
+
+'ref_whitelisted' => 'Whitelisted',
+
+'ref_no_whitelist_table' => 'Whitelist database table does not exist',
+
+'ref_type' => 'Item Type',
+
+'ee_blacklist' => 'Download ExpressionEngine Blacklist',
+
+'requires_license_number' => 'Requires License Number in General Configuration',
+
+'ref_no_license' => 'Error: No license number.',
+
+'ref_blacklist_irretrievable' => 'Error: New blacklist was irretrievable.',
+
+'ref_view_blacklist' => 'View Blacklist',
+
+'ref_no_blacklist' => 'There is currently nothing blacklisted',
+
+'ref_ip' => 'IP Address',
+
+'ref_user_agent' => 'User Agent',
+
+'ref_url' => 'URL',
+
+'ref_blacklisted' => 'Blacklisted',
+
+'ref_no_blacklist_table' => 'Blacklist database table does not exist',
+
 );
-?>
+
+// EOF

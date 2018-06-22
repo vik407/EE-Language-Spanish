@@ -1,164 +1,79 @@
 <?php
+
 $lang = array(
 
+'and' => 'and',
 
-'install_lock_warning' => 
-'Advertencia: Tu carpeta de instalacion todavia se encuentra en el servidor.',
+'are' => 'are',
 
-'install_lock_removal' => 
-'Por razones de seguridad, por favor borra la carpeta llamada "installer" de tu servidor utilizando tu programa de FTP.',
+'awaiting_moderation' => 'awaiting moderation',
 
-'checksum_changed_warning' => 
-'Uno o mas archivos de nucleo han sido alterados:',
+'banned_members' => 'Banned Members',
 
-'checksum_changed_accept' => 
-'Aceptar Cambios',
+'channels' => 'Channels',
 
-'checksum_email_subject' => 
-'Un archivo de nucleo fue modificado en tu sitio.',
+'channels_desc' => 'Channels are used to store content for your website. For example, if you want a Blog. You would first need to create a Channel to store the entries. Think of them as folders, or directories.',
 
-'checksum_email_message' => 
-'',
+'closed_entries_with_comments' => '<b>%d</b> Closed entries with %d comments.',
 
-'new_version_notice' => 
-'',
+'comments' => 'Comments',
 
-'new_version_error' => 
-'',
+'content' => 'Content',
 
-'important_messages' => 
-'Notificacion',
+'content_desc' => 'Channel entries, why folks visit.',
 
-'cp_home' => 
-'My Pagina de Inicio',
+'create_new' => 'Create New',
 
-'current_user' => 
-'Usuario Actual:',
+'eecms_news' => 'ExpressionEngine News',
 
-'system_status' => 
-'Status de Sistema',
+'entries_with_comments' => '<b>%d</b> Entries with %d comments',
 
-'offline' => 
-'Apagado',
+'field_groups' => 'Field Groups',
 
-'online' => 
-'Encendido',
+'flagged_as_spam' => 'flagged as potential spam',
 
-'member_search' => 
-'Busqueda de Miembro',
+'has' => 'has',
 
-'search_instructions' => 
-'Enviar palabras completas o parciales',
+'have_been' => 'have been',
 
-'member_group' => 
-'Grupo de Miembro',
+'latest_news_and_articles' => 'Latest News and Articles',
 
-'search_by' => 
-'Campo de Busqueda',
+'members' => 'Members',
 
-'screen_name' => 
-'Nombre de Pantalla',
+'members_desc' => 'Members are registered users of your site. You <em>must</em> have at least one member, an administrator.',
 
-'email_address' => 
-'Direccion de Correo Electronico',
+'new_comments' => '<em>new</em> comments',
 
-'url' => 
-'URL',
+'new_members_permission_desc' => 'You may <a href="%s">change the settings</a> to allow or disallow, new member registrations.',
 
-'site_statistics' => 
-'Estadisticas del Sitio',
+'new_spam' => '<em>new</em> items in the Spam queue',
 
-'value' => 
-'Valor',
+'news_fetch_failure' => 'Oops, we couldn\'t fetch the news.',
 
-'total_members' => 
-'Total de Miembros',
+'overview' => 'Overview',
 
-'total_validating_members' => 
-'Miembros Esperando Activacion',
+'register_new' => 'Register New',
 
-'total_validating_comments' => 
-'Comentarios Esperando Validacion',
+'review_all' => 'Review All',
 
-'total_entries' => 
-'Total de Entras de Canal',
+'review_all_new' => 'Review All New',
 
-'total_comments' => 
-'Total de Comentarios',
+'rss' => 'RSS',
 
-'most_recent_entries' => 
-'Entradas de Canal Mas Recientes',
+'search_content' => 'search content',
 
-'most_recent_comments' => 
-'Comentarios Mas Recientes',
+'settings' => 'settings',
 
-'no_comments' => 
-'Actualmente no hay comentarios',
+'since_last_login' => 'since your last login',
 
-'no_entries' => 
-'Actualmente no hay entradas de canal',
+'spam' => 'Spam',
 
-'entry_title' => 
-'Titulo de Entrada de Canal',
+'there_are' => 'There are',
 
-'comments' => 
-'Comentarios',
+'there_were' => 'There were',
 
-'no_channels_exist' => 
-'Actualmente no hay canales',
+'type_phrase' => 'type phrase...',
 
-'no_templates_available' => 
-'No existen grupos de plantilla.  <a href=\'%s\' title=\'Create a template group\'>Crear un Grupo de Plantilla</a>',
-
-'select_channel_to_post_in' => 
-'Selecciona un canal para postear',
-
-'recent_members' => 
-'Nuevos Miembros Mas Recientes',
-
-'join_date' => 
-'Fecha de Registro',
-
-'total_hits' => 
-'Total de Hits de Pagina Combinados',
-
-'demo_expiration' => 
-'Tu cuenta de demo expirara en:',
-
-'bulletin_board' => 
-'Foro de Boletines',
-
-'no_bulletins' => 
-'No hay Boletines',
-
-'bulletin_sender' => 
-'Enviador de Boletin',
-
-'bulletin_date' => 
-'Fecha de Boletin',
-
-'exact_match' => 
-'Exact Match',
-
-'pmachine_news_feed' => 
-'Feed de Noticias de EllisLab',
-
-'no_news' => 
-'No Hay Noticias Disponibles',
-
-'more_news' => 
-'Mas Noticias...',
-
-'site_status' => 
-'Status de Sitio',
-
-'close' => 
-'Cerrar',
-
-'translate' => 
-'Update',
-
-''=>''
 );
 
-// End of File
+// EOF

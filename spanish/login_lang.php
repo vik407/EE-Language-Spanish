@@ -1,37 +1,57 @@
 <?php
+
 $lang = array(
 
+/* Log-in */
+'credential_missmatch' => 'That is the wrong username or password',
 
-"remember_me" =>
-"Acceder automaticamente en futuras visitas?",
+'locked' => 'Locked',
 
-"no_username" =>
-"El campo de nombre de usuario es requerido.",
+'multi_login_warning' => 'Someone is already logged in using this account',
 
-"no_password" =>
-"El campo de contraseña es requerido.",
+'new_password_request' => 'New Password Request',
 
-"no_email" =>
-"Debes enviar tu dirección de correo electrónico.",
+'no_email' => 'You must submit your email address.',
 
-"credential_missmatch" =>
-"Usuario o contraseña invalida.",
+'no_password' => 'The password field is required',
 
-"multi_login_warning" =>
-"Alguien ya ha accedido con esta cuenta.",
+'no_username' => 'The username field is required',
 
-"return_to_login" =>
-"Retornar a formulario de entrada",
+'password_lockout_in_effect' => 'You are only permitted to make four login attempts every %d minute(s)',
 
-"password_lockout_in_effect" =>
-"Solo tiene permitodos cuatro intentos para acceder cada %x minuto(s)",
+'remember_me' => 'Keep me logged in.',
 
-"unauthorized_request" =>
-"No estás autorizado para llevar a cabo esta acción",
+'return_to_login' => 'Return to login',
 
-"translate" =>
-"Update",
+'session_auto_timeout' => 'Your session has timed out due to inactivity',
 
-''=>''
+'unauthorized_request' => 'You are not authorized to perform this action',
+
+
+'email_address' => 'e-mail address',
+
+'enter_new_password' => 'Enter a New Password',
+
+'remind_me' => 'Remind me',
+
+'id_not_found' => 'The code number you submitted was not found in the database.',
+
+'log_into' => 'Log into',
+
+'login' => 'Log In',
+
+'new_password' => 'New password',
+
+'new_password_confirm' => 'Confirm new password',
+
+'no_reset_id' => 'The password reset token does not appear to be valid. Please check the link you followed.',
+
+'password_changed' => 'Password Successfully Changed',
+
+'reset_password' => 'Reset Password',
+
+'successfully_changed_password' => 'You have successfully changed your password. Please login using your new password.',
+
 );
-?>
+
+// EOF

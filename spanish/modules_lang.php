@@ -1,70 +1,55 @@
 <?php
+
 $lang = array(
 
+'all_modules_up_to_date' => 'All modules are up to date.',
 
-"module_name" =>
-"Nombre de Módulo",
+'data_will_be_lost' => 'All data associated with this module will be permanently deleted!',
 
-"module_description" =>
-"Descripción",
+'deinstall' => 'Remove',
 
-"data_will_be_lost" =>
-"Todos los datos relacionados con este módulo serán borrados permanentemente!",
+'delete_module' => 'Uninstall Module',
 
-"module_access" =>
-"Editar Módulo",
+'delete_module_confirm' => 'Are you sure you want to remove the following module:',
 
-"module_no_access" =>
-"No tienes permitido accesar módulos",
+'install' => 'Install',
 
-"delete_module" =>
-"Des-instalar Módulo",
+'installed' => 'Installed',
 
-"delete_module_confirm" =>
-"Estás seguro que deseas remover el siguiente módulo:",
+'module_access' => 'Edit Module',
 
-"module_backend" =>
-"PC de Usuario",
+'module_action' => 'Action',
 
-"module_version" =>
-"Versión",
+'module_backend' => 'User CP',
 
-"module_status" =>
-"Estatus",
+'module_can_not_be_found' => 'Unable to locate the files needed to install this module',
 
-"module_action" =>
-"Acción",
+'module_description' => 'Description',
 
-"not_installed" =>
-"No Instalado",
+'module_has_been_installed' => 'Module installed:',
 
-"installed" =>
-"Instalado",
+'module_has_been_removed' => 'Module removed:',
 
-"install" =>
-"Instalar",
+'module_name' => 'Module Name',
 
-"deinstall" =>
-"Remover",
+'module_no_access' => 'You are not allowed to access any modules',
 
-"module_can_not_be_found" =>
-"No se pueden ubicar los archivos necesarios para instalar este módulo",
+'module_status' => 'Status',
 
-"module_has_been_installed" =>
-"Módulo instalado:",
+'module_version' => 'Version',
 
-"module_has_been_removed" =>
-"Módulo removido:",
+'not_installed' => 'Not Installed',
 
-"requested_module_not_installed" =>
-"El módulo solicitado no esta instalado.",
+'requested_module_not_installed' => 'The requested module is not installed:',
 
-"requested_page_not_found" =>
-"La página del módulo solicitado no puede ser encontrada.",
+'requested_page_not_found' => 'The requested module page could not be found.',
 
-"translate" =>
-"Update",
+'update_modules' => 'Run Module Updates',
 
-''=>''
+'updated' => 'Updated',
+
+'updated_to_version' => 'updated to version',
+
 );
-?>
+
+// EOF

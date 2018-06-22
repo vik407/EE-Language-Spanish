@@ -1,52 +1,35 @@
 <?php
+
 $lang = array(
 
+'imglib_copy_error' => 'An error was encountered while attempting to replace the file. Please make sure your file directory is writable.',
 
-"imglib_gd_required_for_props" =>
-"Tu servidor debe soportar la biblioteca de imagen GD para poder determinar las propiedades de imagen",
+'imglib_copy_failed' => 'The image copy routine failed.',
 
-"imglib_unsupported_imagecreate" =>
-"Tu servidor no soporta la funcion GD requerida para procesar este tipo de imagen",
+'imglib_gd_required_for_props' => 'Your server must suppor the GD image library in order to determine the image properties',
 
-"imglib_gif_not_supported" =>
-"Imagenes GIF no son soportadas regularmente debido a restricciones de licencia. Talvez deberias usar imagenes JPG o PNG en su lugar",
+'imglib_gif_not_supported' => 'GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.',
 
-"imglib_jpg_not_supported" =>
-"Imagenes JPG no son soportadas",
+'imglib_image_process_failed' => 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
 
-"imglib_png_not_supported" =>
-"Imagenes PNG no son soportadas",
+'imglib_invalid_path' => 'The path to the image is not correct',
 
-"imglib_jpg_or_png_required" =>
-"El protocolo de cambio de tamaño de imagen que has especificado en tus preferencias solo funciona con imagenes de tipo JPG o PNG",
+'imglib_jpg_not_supported' => 'JPG images are not supported',
 
-"imglib_copy_error" =>
-"Un error fue encontrado al tratar de sustituir el archivo. Por favor asegura que tu directorio de archivos tenga permisos de escritura.",
+'imglib_jpg_or_png_required' => 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
 
-"imglib_rotate_unsupported" =>
-"Rotacion de imagen no esta soportada por tu servidor.",
+'imglib_libpath_invalid' => 'The path to your image library is not correct. Please set the correct path in your image preferences.',
 
-"imglib_libpath_invalid" =>
-"La ruta a tu directorio de biblioteca de imagen no es correcta. Por favor corrige la ruta en tus preferencias de imagen.",
+'imglib_png_not_supported' => 'PNG images are not supported',
 
-"imglib_image_process_failed" =>
-"Procesamiento de imagen fallido. Por favor verifica que tu servidor soporta el protocolo seleccionado y que la ruta a tu biblioteca de imagen es correcta.",
+'imglib_rotate_unsupported' => 'Image rotation does not appear to be supported by your server.',
 
-"imglib_rotation_angle_required" =>
-"Un angulo de rotacion es requerido para rotar la imagen",
+'imglib_rotation_angle_required' => 'An angle of rotation is required to rotate the image.',
 
-"imglib_writing_failed_gif" =>
-"Imagen GIF",
+'imglib_unsupported_imagecreate' => 'Your server does not support the GD function required to process this type of image.',
 
-"imglib_invalid_path" =>
-"La ruta a la imagen no es correcta",
+'imglib_writing_failed_gif' => 'GIF image ',
 
-"imglib_copy_failed" =>
-"La rutina de copiado de imagen fallo.",
-
-"translate" =>
-"Update",
-
-''=>''
 );
-?>
+
+// EOF

@@ -1,181 +1,103 @@
 <?php
+
 $lang = array(
 
+'advanced_users_only' => 'Advanced Users Only',
 
-"tools" =>
-"Herramientas",
+'all_caching' => 'All caches',
 
-"tools_data" =>
-"Datos",
+'choose_translation_file' => 'Choose a file to translate',
 
-"tools_logs" =>
-"Registros",
+'clear_caching' => 'Clear Cached Data',
 
-"tools_utilities" =>
-"Utilidades",
+'communicate' => 'Communicate',
 
-"communicate" =>
-"Comunicate",
+'config_editor' => 'Config File Manager',
 
-"config_editor" =>
-"Gestor de Archivo de Configuración",
+'db_caching' => 'Database cache files',
 
-"php_info" =>
-"Info de PHP",
+'english' => 'English',
 
-"recount_stats" =>
-"Recontar Estadísticas",
+'european' => 'European',
 
-"search_and_replace" =>
-"Buscar y Sustituir",
+'import_utilities' => 'Import Utilities',
 
-"sql_manager" =>
-"Gestor SQL",
+'invalid_path' => 'The path you submitted is not valid:',
 
-"clear_caching" =>
-"Limpiar Datos de Cache",
+'member_import' => 'Member Import Utility',
 
-"view_throttle_log" =>
-"View Throttle Log",
+'missing_password_type' => 'The required type attribute is missing in the password element for user: %x. Please consult the documentation for the correct import format.',
 
-"view_search_log" =>
-"Ver Registro de Búsqueda",
+'no_lang_file' => 'No Language File Provided',
 
-"view_email_logs" =>
-"Ver Registro de Consola de Correo Electrónico",
+'no_lang_keys' => 'No Language Keys Exist to Translate',
 
-"view_cp_log" =>
-"Ver Registro de Panel de Control",
+'no_search_results' => 'No Results Found',
 
-"import_utilities" =>
-"Utilidades de Importación",
+'page_caching' => 'Page (template) cache files',
 
-"translation_tool" =>
-"Utilidad de Traducción",
+'php_info' => 'PHP Info',
 
-"english" =>
-"Inglés",
+'recount_stats' => 'Recount Statistics',
 
-"translation" =>
-"Traducción",
+'replace_term' => 'And replace it with this text',
 
-"hits" =>
-"Hits",
+'replace_where' => 'In what database field do you want the replacement to occur?',
 
-"last_activity" =>
-"Ultima Actividad",
+'sandr_instructions' => 'These forms enable you to search for specific text and replace it with different text',
 
-"no_throttle_logs" =>
-"No IPs are currently being throttled by the system.",
+'search_and_replace' => 'Search and Replace',
 
-"throttling_disabled" =>
-"Throttling Disabled",
+'search_replace_disclaimer' => 'Depending on the syntax used, this function can produce undesired results. Consult the manual and backup your database.',
 
-"blacklist_all_ips" =>
-"Blacklist All IPs",
+'search_results' => 'Search Results',
 
-"no_search_results" =>
-"No Se Encontraron Resultados",
+'search_term' => 'Search for this text',
 
-"search_results" =>
-"Resultados de Búsqueda",
+'search_terms' => 'Search Terms',
 
-"site_search" =>
-"Sitio",
+'searched_in' => 'Searched In',
 
-"searched_in" =>
-"Se Buscó En",
+'site_search' => 'Site',
 
-"search_terms" =>
-"Términos de Búsqueda",
+'sql_manager' => 'SQL Manager',
 
-"page_caching" =>
-"Archivos de cache de página (plantilla)",
+'tag_caching' => 'Tag cache files',
 
-"tag_caching" =>
-"Archivos de cache de etiquetas",
+'tools' => 'Tools',
 
-"db_caching" =>
-"Archivos de cache de base de datos",
+'tools_data' => 'Data',
 
-"cached_relationships" =>
-"Entras de Relación en Cache",
+'tools_logs' => 'Logs',
 
-"all_caching" =>
-"Todo cache",
+'tools_utilities' => 'Utilities',
 
-"sandr_instructions" =>
-"Estos formularios permiten buscar texto específico y sustituirlo con texto diferente",
+'trans_file_not_writable'=> 'Translation file is not writeable.',
 
-"search_term" =>
-"Buscar por este texto",
+'translation' => 'Translation',
 
-"replace_term" =>
-"Y sustituirlo con este texto",
+'translation_tool' => 'Translation Utility',
 
-"replace_where" =>
-"En que campo de la base de datos deseas que se realize la sustitución?",
+'united_states' => 'United States',
 
-"search_replace_disclaimer" =>
-"Dependiendo en el sintaxis usado, esta función puede producir resultados inesperados. Consulta el manual y crea un respaldo de tu base de datos.",
 
-"advanced_users_only" =>
-"Solo Usuarios Avanzados",
+/* Config Editor */
+'false' => 'False',
 
-"choose_translation_file" =>
-"Escoge un archivo a traducir",
+'preference' => 'Preference',
 
-"no_lang_file" =>
-"No Se Proveo Un Archivo de Lenguaje",
+'preferences_updated' => 'Preferences Updated',
 
-"no_lang_keys" =>
-"No Existen Llaves de Lenguaje para Traducir",
+'setting' => 'Setting',
 
-"invalid_path" =>
-"La ruta que has enviado no existe",
+'true' => 'True',
 
-"file_saved" =>
-"El archivo de traducción ha sido guardado a system/expressionengine/translations/",
 
-"import_from_mt" =>
-"Utilidad de Importación de Movable Type",
+/* Translation */
+'screen_name' => 'Screen Name',
 
-"member_import" =>
-"Utilidad de Importación de Miembro",
+'translation_dir_unwritable' => 'Warning: Your translation directory is not writable.',
 
-"missing_password_type" =>
-"El tipo de atributo requerido no existe en el elemento de contrasea para el usurio: %x. Por favor consulta la documentación para el formato de importación correcto.",
-
-"united_states" =>
-"Estados Unidos",
-
-"european" =>
-"Europeo",
-
-"preference" =>
-"Preferencias",
-
-"setting" =>
-"Configuración",
-
-"preferences_updated" =>
-"Preferencias Actualizadas",
-
-"true" =>
-"Verdadero",
-
-"false" =>
-"Falso",
-
-"translation_dir_unwritable" =>
-"Advertencia: Tu directorio de traducción no tiene permisos de escritura",
-
-"screen_name" =>
-"Nombre de Pantalla",
-
-"translate" =>
-"Update",
-
-''=>''
 );
-?>
+
+// EOF

@@ -1,358 +1,391 @@
 <?php
+
 $lang = array(
 
+'add_email' => 'Add Email Template',
 
-"simple_commerce_module_name" =>
-"Comercio Simple",
+'add_email_instructions' => 'When the purchase of an item is confirmed, an email can be sent out to one or many email addresses for that item. These emails can contain certain variables sent back from PayPal, which are as follows: ',
 
-"simple_commerce_module_description" =>
-"Módulo Simple y Flexible de Comercio",
+'add_emails' => 'Add Email Templates',
 
-"simple_commerce_home" =>
-"Panel de Control",
+'add_item' => 'Add item',
 
-"subscription_frequency" =>
-"Frecuencia de Suscripción",
+'admin_email_address' => 'Admin email address',
 
-"subscription_frequency_unit" =>
-"Unidad de Frecuencia de Suscripción",
+'admin_email_address_desc' => 'Email address to notify when a sale is made.',
 
-"invalid_subscription_frequency" =>
-"Frecuencia de Suscripción Inválida",
+'admin_email_template' => 'Admin email template',
 
-"recurs_every" =>
-"Recurre cada",
+'admin_email_template_desc' => 'Template to use for notifying an admin of a sale.',
 
-"days" =>
-"Dias",
+'admin_email_template_unsubscribe' => 'Admin <mark>cancel</mark> email template',
 
-"screen_name" =>
-"Nombre de pantalla",
+'admin_email_template_unsubscribe_desc' => 'Template to use for notifying an admin of a cancellation.',
 
-"weeks" =>
-"Semanas",
+'all_items' => 'All Items',
 
-"months" =>
-"Meses",
+'all_purchases' => 'All Purchases',
 
-"years" =>
-"Años",
+'certificate_id' => 'ID given to public certificate by PayPal',
 
-"day" =>
-"Dia",
+'choose_entry_for_item' => 'Choose Entry for Store Item',
 
-"week" =>
-"Semana",
+'choose_item' => 'Choose Item',
 
-"month" =>
-"Mes",
+'commerce_cert_path' => 'Public certificate path',
 
-"year" =>
-"Año",
+'commerce_cert_path_desc' => 'Full path to public certificate.',
 
-"ipn_url" =>
-"URL de Notificación de Pago Instantáneo (IPN)",
+'commerce_encrypt_paypal' => 'Encrypt PayPal buttons and links?',
 
-"ipn_details" =>
-"Notificación de Pago Instantáneo es un servicio de Paypal que permito el procesamiento de transacciones en su sitio y luego la notificación de ExpressionEngine cuando una transacción es completada y aceptada. Esto permite que las compras no sean guardadas en el módulo de Comercio Simple hasta que la transacción se finalize. El módulo de Comercio Simple de ExpressionEngine automatiza todo esto de fondo y solo debes activar Notificación de Pago Instantáneo en el sitio de PayPal y proveer el siguiente URL.",
+'commerce_encrypt_paypal_desc' => 'When enabled, PayPal buttons and links will be JavaScript encrypted.',
 
-"items" =>
-"Artículos",
+'commerce_ipn_notice' => 'Instant Payment Notification is a PayPal service that allows the processing of transactions on their site and then notifying ExpressionEngine when the transaction is complete and accepted. This allows purchases to not be stored and recorded in the Simple Commerce module until the transaction is finalized. ExpressionEngine\'s Simple Commerce module automates all of this behind the scenes so all you have to do is activate Instant Payment Notification on the PayPal site and provide them with the URL below. <a href="%s" rel="external">Learn More</a>',
 
-"purchases" =>
-"Compras",
+'commerce_ipn_url' => '<abbr title="Instant Payment Notification">IPN</abbr> <abbr title="Unified Resource Locator">URL</abbr>',
 
-"email_templates" =>
-"Plantillas de Correo Electrónico",
+'commerce_ipn_url_desc' => '<abbr title="Unified Resource Locator">URL</abbr> for PayPal to notify on transaction completion.',
 
-"store_items" =>
-"Artículos de Tienda",
+'commerce_items' => 'Commerce Items',
 
-"add_item" =>
-"Agregar Artículo",
+'commerce_key_path' => 'Private key path',
 
-"item_added" =>
-"Artículos Agregados",
+'commerce_key_path_desc' => 'Full path to private key.',
 
-"purchase_date" =>
-"Fecha de compra",
+'commerce_paypal_cert_id' => 'Public certification <abbr title="Identifier">ID</abbr>',
 
-"recurring" =>
-"Recurrente",
+'commerce_paypal_cert_id_desc' => '<abbr title="Identifier">ID</abbr> given to public certificate by PayPal.',
 
-"current_subscriptions" =>
-"Fecha de Finalización de Suscripción",
+'commerce_paypal_cert_path' => 'PayPal certificate path',
 
-"add_items" =>
-"Agregar Artículos",
+'commerce_paypal_cert_path_desc' => 'Full path to PayPal certificate.',
 
-"edit_items" =>
-"Editar Arículos",
+'commerce_paypal_email' => 'PayPal account Email',
 
-"export_items" =>
-"Exportar Artículos",
+'commerce_paypal_email_desc' => 'Email address associated with your PayPal business account.',
 
-"store_purchases" =>
-"Compras de Tienda",
+'commerce_purchases' => 'Commerce Purchases',
 
-"edit_purchases" =>
-"Editar Compras",
+'commerce_settings' => 'Commerce Settings',
 
-"add_purchase" =>
-"Agregar Compra",
+'commerce_temp_path' => 'Temporary encrypted file path',
 
-"export_purchases" =>
-"Exportar Compras",
+'commerce_temp_path_desc' => 'Full path to temporary encrypted files.',
 
-"choose_entry_for_item" =>
-"Selecciona Entrada para Artículo de Tienda",
+'cost' => 'Cost',
 
-"invalid_entries" =>
-"No Hay Entras Válidas",
+'create_email_template' => 'Create Email Template',
 
-"invalid_emails" =>
-"Correos Inválidos",
+'create_new_item' => 'Create New Item',
 
-"invalid_purchases" =>
-"Compras Inválidas",
+'create_new_item_step' => 'Create Item: Step %d',
 
-"use_sale_price" =>
-"Utilizar Precio de Descuento?",
+'create_new_item_step_desc' => 'Please choose the channel entries you\'d like to add as purchasable items.',
 
-"entry_title" =>
-"Título de Entrada",
+'create_purchase' => 'Create Purchase',
 
-"update_item" =>
-"Actualizar Artículo",
+'create_template' => 'Create Template',
 
-"update_items" =>
-"Actualizar Artículos",
+'customer_email_subscribe' => 'Customer Email Subscribe Template',
 
-"sale_price" =>
-"Precio de Descuento",
+'customer_email_template' => 'Customer email template',
 
-"regular_price" =>
-"Precio Regular",
+'customer_email_template_desc' => 'Template to use when sending sale confirmation email to purchaser.',
 
-"item_enabled" =>
-"Artículo Habilitado",
+'customer_email_unsubscribe' => 'Customer <mark>cancel</mark> email template',
 
-"purchase_actions" =>
-"Acciones de Compra",
+'customer_email_unsubscribe_desc' => 'Template to use when sending cancel confirmation email to canceler.',
 
-"store_emails" =>
-"Guardar Correos",
+'date_of_purchase' => 'Date of Purchase',
 
-"add_email_template" =>
-"Agregar Plantilla de Correo",
+'date_purchased' => 'Date Purchased',
 
-"edit_email_templates" =>
-"Editar Plantillas de Correo",
+'day' => 'Day',
 
-"sales_information" =>
-"Información de Ventas",
+'days' => 'Days',
 
-"no_email_templates" =>
-"No Hay Plantillas de Correo",
+'delete_emails_confirm' => 'Delete Emails Confirmation',
 
-"no_purchases" =>
-"No Hay Compras",
+'delete_items_confirm' => 'Delete Items Confirmation',
 
-"perform_item_actions" =>
-"Realizar Acciones para este Artículo?",
+'delete_purchases_confirm' => 'Delete Purchases Confirmation',
 
-"email_name" =>
-"Nombre de Plantilla de Correo",
+'delete_selected' => 'Delete Selected',
 
-"edit_emails" =>
-"Editar Correos",
+'edit_email_template' => 'Edit Email Template',
 
-"monthly_sales" =>
-"Ventas Mensuales",
+'edit_item' => 'Edit Item',
 
-"customer_email" =>
-"Plantilla de Correo de Cliente",
+'edit_purchase' => 'Edit Purchase',
 
-"on_subscribe" =>
-"En Suscripción",
+'edit_selected' => 'Edit Selected',
 
-"on_unsubscribe" =>
-"En Desuscripción",
+'email_body' => 'Email body',
 
-"customer_email_subscribe" =>
-"Plantilla de Correo de Suscripción de Cliente",
+'email_instructions' => 'Email Instructions',
 
-"customer_email_unsubscribe" =>
-"Plantilla de Correo de Suscripción de Cliente",
+'email_name' => 'Email Template Name',
 
-"admin_email_address" =>
-"Direcciones de Correo de Admin",
+'email_options' => 'Email Options',
 
-"invalid_price" =>
-"Precio Inválido!",
+'email_subject' => 'Email subject',
 
-"select_admin_template" =>
-"Debes Seleccionar Plantilla de Correo de Admin si la Dirección de Correo Esta Llenada",
+'email_template' => 'Email Template',
 
-"admin_email_template" =>
-"Plantilla de Correo de Admin",
+'email_template_created' => 'Email Template Created',
 
-"member_group" =>
-"Nuevo Grupo de Miembro",
+'email_template_created_desc' => 'The email template has been created.',
 
-"admin_email_template_unsubscribe" =>
-"Plantilla de Correo de Admin de Desuscripción ",
+'email_template_name_desc' => 'Name of this email template.',
 
-"member_group_subscribe" =>
-"Suscribir Grupo de Miembro",
+'email_template_not_created' => 'Cannot Create Email Template',
 
-"member_group_unsubscribe" =>
-"Desuscribir Grupo de Miembro",
+'email_template_not_created_desc' => 'We were unable to create this email template, please review and fix errors below.',
 
-"send_no_email" =>
-"No Enviar el Correo",
+'email_template_not_updated' => 'Cannot Update Email Template',
 
-"no_change" =>
-"No Cobrar",
+'email_template_not_updated_desc' => 'We were unable to update this email template, please review and fix errors below.',
 
-"no_store_items" =>
-"No Guardar Artículos de Tienda",
+'email_template_updated' => 'Email Template Updated',
 
-"item_purchases" =>
-"Compras",
+'email_template_updated_desc' => 'The email template <b>%s</b> has been updated.',
 
-"updated" =>
-"Actualizado",
+'email_templates' => 'Email Templates',
 
-"choose_item" =>
-"Escoge Artículo",
+'email_templates_removed' => 'Email templates removed',
 
-"fields_left_blank" =>
-"Dejastes Algunos Campos Requeridos Vacios",
+'email_templates_removed_desc' => '%d email templates were removed.',
 
-"add_emails" =>
-"Agregar Plantillas de Correo",
+'emails_deleted' => 'Email Templates Deleted!',
 
-"add_email" =>
-"Agregar Plantilla de Correo",
+'enable_item' => 'Enable item?',
 
-"update_email" =>
-"Actualizar Plantilla de Correo",
+'enable_item_desc' => 'When enabled, this item will be purchasable.',
 
-"update_purchase" =>
-"Actualizar Compra",
+'encrypt_buttons_links' => 'Encrypt PayPal buttons and links?',
 
-"update_emails" =>
-"Actualizar Plantillas de Correo",
+'encryption' => 'Encryption',
 
-"update_purchases" =>
-"Actualizar Compras",
+'entry_title' => 'Entry Title',
 
-"purchases_deleted" =>
-"Compras Borradas",
+'export_items' => 'Export All Items',
 
-"email_instructions" =>
-"Instrucciones de Correo",
+'export_purchases' => 'Export All Purchases',
 
-"email_subject" =>
-"Tema de Correo",
+'fields_left_blank' => 'You Left Some Required Fields Blank',
 
-"email_body" =>
-"Cuerpo de Correo",
+'file_does_not_exist' => 'File Does Not Exist for \'%pref%\'. Make sure to use a full server path.',
 
-"add_email_instructions" =>
-"Cuando la compra de un artículo es confirmada, un correo puede ser enviado a una o varias direcciones de correo. Estos correos pueden contener ciertas variables enviadas desde PayPal, siendo las siguientes:",
+'frequency' => 'Frequency',
 
-"edit_selected" =>
-"Editar Seleccionado",
+'invalid_amount' => 'Invalid Monetary Amount',
 
-"delete_selected" =>
-"Borrar Seleccionado",
+'invalid_date_formatting' => 'Invalid Date Formatting',
 
-"delete_items_confirm" =>
-"Confirmación de Borrado de Artículos",
+'invalid_emails' => 'No Valid Emails',
 
-"items_deleted" =>
-"Artículos Borrados",
+'invalid_entries' => 'No Valid Entries',
 
-"delete_emails_confirm" =>
-"Confirmación de Borrado de Correos",
+'invalid_purchases' => 'No Valid Purchases',
 
-"delete_purchases_confirm" =>
-"Confirmación de Borrado de Compras",
+'invalid_subscription_frequency' => 'Invalid Subscription Frequency',
 
-"emails_deleted" =>
-"Plantillas de Correo Borradas!",
+'item' => 'Item',
 
-"member_not_found" =>
-"Miembro No Encontrado",
+'item_added' => 'Items Added',
 
-"purchaser_screen_name" =>
-"Nombre de Pantalla del Comprador",
+'item_cost' => 'Item Cost',
 
-"txn_id" =>
-"Número de Identificación de Compra (TXN ID)",
+'item_cost_form' => 'Item cost',
 
-"date_purchased" =>
-"Fecha de Compra",
+'item_created' => 'Item Created',
 
-"subscription_end_date" =>
-"Fecha de Finalización de Compra",
+'item_created_desc' => 'The items have been created.',
 
-"subscription_end_date_subtext" =>
-"Entra &#39;0&#39; para no poner fecha de finalizacion de suscripción",
+'item_not_created' => 'Cannot Create Item',
 
-"item_purchased" =>
-"Artículo Comprado",
+'item_not_created_desc' => 'We were unable to create this item, please review and fix errors below.',
 
-"item_cost" =>
-"Precio de Artículo",
+'item_not_updated' => 'Cannot Update Item',
 
-"invalid_date_formatting" =>
-"Formato de Fecha Inválido",
+'item_not_updated_desc' => 'We were unable to update this item, please review and fix errors below.',
 
-"invalid_amount" =>
-"Cantidad Monetaria Inválida",
+'item_purchased' => 'Item purchased.',
 
-"encryption" =>
-"Encripción",
+'item_purchases' => 'Purchases',
 
-"encrypt_buttons_links" =>
-"Encriptar Botones y Enlaces de PayPal?",
+'item_updated' => 'Item Updated',
 
-"public_certificate" =>
-"Ruta de Certificado Público",
+'item_updated_desc' => 'The item <b>%s</b> has been updated.',
 
-"certificate_id" =>
-"ID Dado a Certificado Público por PayPal",
+'items' => 'Items',
 
-"private_key" =>
-"Ruta de Llave Privada",
+'items_deleted' => 'Items Deleted',
 
-"paypal_certificate" =>
-"Ruta de Certificado PayPal",
+'items_removed' => 'Items removed',
 
-"temp_path" =>
-"Ruta de Archivos Temporales Encriptados",
+'items_removed_desc' => '%d items were removed.',
 
-"settings" =>
-"Configuración",
+'member_group_subscribe' => 'Subscribe Member Group',
 
-"settings_updated" =>
-"Configuración Actualizada",
+'member_group_unsubscribe_desc' => 'Upon canceling, canceler\'s member group will be changed to the chosen group.',
 
-"file_does_not_exist" =>
-"Archivo No Existe para &#39;%pref%&#39;.  Asegurate de utilizar la ruta completa de servidor.",
+'member_not_found' => 'Member not found.',
 
-"temporary_directory_unwritable" =>
-"El Directorio especificado para escribir los archivos temporales no tiene permisos de escritura.",
+'month' => 'Month',
 
-"paypal_account" =>
-"Cuenta PayPal",
+'months' => 'Months',
 
-"translate" =>
-"Update",
+'new_member_group' => 'New member group',
 
-''=>''
+'new_member_group_desc' => 'Upon purchase, purchaser\'s member group will be changed to the chosen group.',
+
+'no_change' => 'No change',
+
+'no_email_templates' => 'Email templates',
+
+'no_entries' => 'Entries',
+
+'no_items' => 'No Items',
+
+'no_store_items' => 'No Store Items',
+
+'paypal_account' => 'PayPal account',
+
+'paypal_certificate' => 'PayPal certificate path',
+
+'paypal_variables' => 'PayPal variables',
+
+'paypal_variables_desc' => 'When a purchase is confirmed, an email will be sent for that item. These variables are sent back from PayPal.',
+
+'perform_item_actions' => 'Perform Actions for Item?',
+
+'price' => 'Price',
+
+'price_desc' => 'Item price for this transaction.',
+
+'price_sale' => 'Price / Sale',
+
+'private_key' => 'Private key path',
+
+'public_certificate' => 'Public certificate path',
+
+'purchase' => 'Purchase',
+
+'purchase_create_warn' => '<b>Warning</b>: Recurring purchases must be set up through PayPal for full functionality.',
+
+'purchase_created' => 'Purchase Created',
+
+'purchase_created_desc' => 'The purchase for item <b>%s</b> has been created.',
+
+'purchase_date' => 'Date of purchase',
+
+'purchase_not_created' => 'Cannot Create Purchase',
+
+'purchase_not_created_desc' => 'We were unable to create this purchase, please review and fix errors below.',
+
+'purchase_not_updated' => 'Cannot Update Purchase',
+
+'purchase_not_updated_desc' => 'We were unable to update this purchase, please review and fix errors below.',
+
+'purchase_updated' => 'Purchase Updated',
+
+'purchase_updated_desc' => 'The purchase for item <b>%s</b> has been updated.',
+
+'purchaser' => 'Purchaser',
+
+'purchaser_screen_name' => 'Purchaser\'s Screen Name',
+
+'purchases' => 'Purchases',
+
+'purchases_deleted' => 'Purchases Deleted',
+
+'purchases_removed' => 'Purchases removed',
+
+'purchases_removed_desc' => '%d purchases were removed.',
+
+'recurring' => 'Recurring subscription?',
+
+'recurring_desc' => 'When enabled, member will be charged until they cancel.',
+
+'recurring_purchase_warning' => "Recurring purchases must be set up through PayPal for full functionality.",
+
+'recurs_every' => 'Recurs every',
+
+'regular_price' => 'Regular price',
+
+'sale_price' => 'Sale price',
+
+'sales_information' => 'Sales Information',
+
+'screen_name' => 'Screen name',
+
+'screen_name_desc' => 'Screen name of purchaser.',
+
+'search_commerce' => 'Search Commerce',
+
+'select_admin_template' => 'Must Select Admin Email Template if Email Address is Filled Out',
+
+'send_no_email' => 'Do not send email',
+
+'settings' => 'Settings',
+
+'settings_updated' => 'Settings Updated',
+
+'simple_commerce_home' => 'Control Panel',
+
+'simple_commerce_manager' => 'Simple Commerce Manager',
+
+'simple_commerce_module_name' => 'Simple Commerce',
+
+'store_items' => 'Store Items',
+
+'sub_end_date' => 'End Date',
+
+'subscribers' => 'Subscribers',
+
+'subscription_end_date' => 'Subscription End Date',
+
+'subscription_end_date_subtext' => 'Enter \'0\' for no subscription end',
+
+'subscription_frequency' => 'Frequency of subscription',
+
+'subscription_frequency_desc' => 'How often will the member be charged for their subscription of this item.',
+
+'subscription_frequency_unit' => 'Subscription Frequency Unit',
+
+'subscription_options' => 'Subscription Options',
+
+'temp_path' => 'Temporary encrypted files path',
+
+'template' => 'Template',
+
+'temporary_directory_unwritable' => 'The Directory specified for writing the temporary files is not writable.',
+
+'txn_id' => 'PIN (TXN ID)',
+
+'txn_id_desc' => 'A unique ID for this purchase',
+
+'update_email' => 'Update Email Template',
+
+'update_emails' => 'Update Email Templates',
+
+'update_purchase' => 'Update Purchase',
+
+'update_purchases' => 'Update Purchases',
+
+'updated' => 'Updated',
+
+'use_sale_price' => 'Use sale price?',
+
+'week' => 'Week',
+
+'weeks' => 'Weeks',
+
+'year' => 'Year',
+
+'years' => 'Years',
+
 );
-?>
+
+// EOF

@@ -1,299 +1,199 @@
 <?php
+
 $lang = array(
 
+'12_hour' => '12 Hour with AM/PM',
 
-'alphanumeric_not_allowed' => 
-'Delimitadores alfa-numericos no permitidos (a-z / 0-9)',
+'24_hour' => '24 Hour',
 
-'s_required' => 
-'Requerido',
+'alphanumeric_not_allowed' => 'Alphanumeric delimiters not allowed (a-z / 0-9)',
 
-'select' => 
-'Seleccionar',
+'assign_fields' => 'Assign Fields',
 
-'field_label' => 
-'Etiqueta de Campo',
+'assign_fields_blurb' => 'Match your data fields to ExpressionEngine\'s member fields.',
 
-'map_elements' => 
-'Elementos de mapa',
+'auto_custom_field' => 'Create custom fields',
 
-'create_xml' => 
-'Crear XML',
+'auto_custom_field_blurb' => 'Auto-generate custom member fields for any elements that do not match a default member field',
 
-'parse_error' => 
-'Error de Parseo',
+'comma' => 'Comma',
 
-'unable_to_parse_custom_fields' => 
-'No se puede parsear campos personalizados.',
+'confirm_details' => 'Confirm Details',
 
-'unable_to_read_file' => 
-'No se puede leer el archivo.',
+'confirm_details_blurb' => 'Please review the details below before importing your data. If anything is incorrect, please go back and make any necessary changes.',
 
-'unable_to_parse_xml' => 
-'No se puede parsear XML.',
+'confirm_field_assignment' => 'Confirm Field Assignment',
 
-'field_name' => 
-'Nombre de campo',
+'confirm_field_assignment_blurb' => 'Please review your field assignments. If anything is incorrect, please go back and make any necessary changes.',
 
-'custom_member_fields' => 
-'Campos de Miembro Personalizados',
+'convert_from_delimited' => 'Convert delimited text to XML',
 
-'new_fields_success' => 
-'Los siguientes campos de miembro personalizados fueron agregados con exito:',
+'convert_from_delimited_blurb' => 'Allows you to create an ExpressionEngine Member XML file from another application\'s delimited text file',
 
-'assign_fields' => 
-'Campos Asignados',
+'create_xml' => 'Create XML',
 
-'assign_fields_blurb' => 
-'Corresponde tus campos de datos a los campos de miembro de ExpressionEngine',
+'custom_member_fields' => 'Custom Member Fields',
 
-'comma' => 
-'Coma',
+'date_format' => 'Date Formatting',
 
-'confirm_details' => 
-'Confirmar Detalles',
+'default_group_id' => 'Default Group ID',
 
-'confirm_details_blurb' => 
-'Por favor revisa los siguientes detalles antes de importar tus datos. Si algo se encuentra incorrecto, regresa y haz los cambios necesarios.',
+'default_settings' => 'Provide Default Options',
 
-'confirm_field_assignment' => 
-'Confirmar Asignacion de Campo',
+'default_settings_blurb' => 'Set any options you wish to use as defaults. Please note that these default settings will only be used when a value is not implicitly given in the XML file. These options will NOT override XML data.',
 
-'confirm_field_assignment_blurb' => 
-'Por favor revisa tus asignamientos de campo. Si algo se encuentra incorrecto, por favor regresa y haz cualquier cambio necesario.',
+'delimited_file_loc' => 'Member File Location',
 
-'convert_from_delimited' => 
-'Covertir texto delimitado a XML',
+'delimiter' => 'Delimiting Character',
 
-'convert_from_delimited_blurb' => 
-'Te permite crear un archivo de Miembro de ExpressionEngine de el archivo de texto delimitado de otra aplicacion.',
+'delimiter_blurb' => 'This character separates your data, such as a tab, comma, pipe symbol, etc.',
 
-'daylight_savings' => 
-'Horario de Verano',
+'download' => 'Download XML File',
 
-'auto_custom_field' => 
-'Crear campos personalizados',
+'duplicate_email' => 'Duplicate email: ',
 
-'auto_custom_field_blurb' => 
-'Auto-generar campos de miembro personalizados para cualquier elemento que no corresponda con un campo de miembro predeterminado',
+'duplicate_field_assignment' => 'Duplicate field assignment: %x',
 
-'default_group_id' => 
-'ID de Grupo Predeterminado',
+'duplicate_member_id' => 'Duplicate Member ID: "%x"<br />It is recommended that you do not use a &lt;member_id&gt; tag and allow ExpressionEngine to auto-increment member_id',
 
-'default_settings' => 
-'Proveer Opciones Predeterminadas',
+'duplicate_username' => 'Duplicate username: ',
 
-'default_settings_blurb' => 
-'Set any options you wish to use as defaults.  Please note that these default settings will only be used when a value is',
+'enclosure' => 'Enclosing Character',
 
-'delimited_file_loc' => 
-'Member File Location',
+'enclosure_blurb' => 'This character encloses your data, if it exists. In the following example, the enclosure character is a double quote: "<br />',
 
-'delimiter' => 
-'Delimiting Character',
+'enclosure_example' => '"John Doe", "jdoe", "john@example.com", ...',
 
-'delimiter_blurb' => 
-'This character separates your data, such as a tab, comma, pipe symbol, etc.',
+'enclosure_label' => 'Enclosure: ',
 
-'download' => 
-'Download XML File',
+'encrypted_passwords' => 'Passwords are already encrypted',
 
-'dst_enabled' => 
-'DST Enabled',
+'field_label' => 'Field label',
 
-'duplicate_email' => 
-'Duplicate email: ',
+'field_name' => 'Field name',
 
-'duplicate_field_assignment' => 
-'Duplicate field assignment: %x',
+'file_loc_blurb' => 'The location of the file must be relative to your site\'s control panel folder. e.g.: ../members.txt, if placed at the site root.',
 
-'duplicate_member_id' => 
-'Duplicate Member ID: "%x"<br />It is recommended that you do not use a &lt;member_id&gt; tag and allow ExpressionEngine to auto-increment member_id',
+'group_id' => 'Default Member Group',
 
-'duplicate_screen_name' => 
-'Duplicate screen_name: ',
+'import' => 'Import!',
 
-'duplicate_username' => 
-'Duplicate username: ',
+'import_from_xml' => 'Import from XML File',
 
-'enclosure' => 
-'Enclosing Character',
+'import_from_xml_blurb' => 'Allows you to import members from an XML file in ExpressionEngine\'s Member XML format',
 
-'enclosure_blurb' => 
-'This character encloses your data, if it exists.  In the following example, the enclosure character is a double quote: "<br />',
+'import_info' => 'Import Information',
 
-'enclosure_example' => 
-'"John Doe", "jdoe", "john@example.com", ...',
+'import_success' => 'Members Imported Successfully',
 
-'enclosure_label' => 
-'Enclosure: ',
+'import_success_blurb' => 'Your XML member data was successfully imported into your database!',
 
-'encrypted_passwords' => 
-'Passwords are already encrypted',
+'include_seconds' => 'Include Seconds in the Time Format',
 
-'file_loc_blurb' => 
-'The location of the file must be relative to your site\'s control panel folder. e.g.: ../members.txt, if placed at the site root.',
+'info_blurb' => 'In order to use this utility, you must first put the file containing your exported member data on your server, and then submit the location of the file.',
 
-'group_id' => 
-'Default Member Group',
+'invalid_element' => 'Missing or Invalid Element - &lt;member&gt; expected',
 
-'import' => 
-'Import!',
+'invalid_path' => 'INVALID PATH! File does not exist: ',
 
-'import_from_xml' => 
-'Import from XML File',
+'invalid_tag' => 'Invalid XML tag!',
 
-'import_from_xml_blurb' => 
-'Allows you to import members from an XML file in ExpressionEngine\'s Member XML format',
+'invalid_xml' => 'There is a problem with your XML file. Please review the documentation on ExpressionEngine\'s Member XML file format.',
 
-'import_info' => 
-'Import Information',
+'is_public' => 'Public',
 
-'import_success' => 
-'Members Imported Successfully',
+'is_reg_form' => 'Registration form',
 
-'import_success_blurb' => 
-'Your XML member data was successfully imported into your database!',
+'is_required' => 'Required',
 
-'info_blurb' => 
-'In order to use this utility, you must first put the file containing your exported member data',
+'language' => 'Default Language',
 
-'invalid_element' => 
-'Missing or Invalid Element - &lt;member&gt; expected',
+'map_elements' => 'Map elements',
 
-'invalid_path' => 
-'INVALID PATH!  File does not exist: ',
+'member_fields' => 'Member Fields',
 
-'invalid_tag' => 
-'Invalid XML tag!',
+'member_id_warning' => 'WARNING: If you have &lt;member_id&gt; tags in your XML, existing members with the same member_id will be OVERWRITTEN! Proceed with caution!',
 
-'invalid_xml' => 
-'There is a problem with your XML file.  Please review the documentation on ExpressionEngine\'s Member XML file format.',
+'member_import_utility' => 'Member Import Utility',
 
-'language' => 
-'Default Language',
+'member_import_welcome' => 'This utility allows you to import members from other systems into ExpressionEngine',
 
-'member_fields' => 
-'Member Fields',
+'missing_birthday_child' => 'Missing child element(s) of &lt;birthday&gt;: &lt;day&gt; &lt;month&gt; &lt;year&gt; expected',
 
-'member_id_warning' => 
-'WARNING: If you have &lt;member_id&gt; tags in your XML, existing members with the same member_id will be OVERWRITTEN!  Proceed with caution!',
+'missing_email_field' => 'You must assign a field to "email"',
 
-'member_import_utility' => 
-'Member Import Utility',
+'missing_screen_name_field' => 'You must assign a field to "screen_name"',
 
-'member_import_welcome' => 
-'This utility allows you to import members from other systems into ExpressionEngine',
+'missing_username_field' => 'You must assign a field to "username"',
 
-'missing_birthday_child' => 
-'Missing child element(s) of &lt;birthday&gt;: &lt;day&gt; &lt;month&gt; &lt;year&gt; expected',
+'new_fields_success' => 'The following custom member fields were successfully added:',
 
-'missing_email_field' => 
-'You must assign a field to "email"',
+'no' => 'No',
 
-'missing_screen_name_field' => 
-'You must assign a field to "screen_name"',
+'no_delimiter' => 'You must provide a delimiting character with the "%x" option.',
 
-'missing_username_field' => 
-'You must assign a field to "username"',
+'no_file_submitted' => 'You must submit a relative path to your member data file',
 
-'no' => 
-'No',
+'no_read_access' => 'Unable to read the file: ',
 
-'no_delimiter' => 
-'You must provide a delimiting character with the "%x" option.',
+'not_enough_fields' => 'You must have at least 3 fields: username, screen_name, and email address',
 
-'no_file_submitted' => 
-'You must submit a relative path to your member data file',
+'option' => 'Option',
 
-'no_read_access' => 
-'Unable to read the file: ',
+'order' => 'Order',
 
-'none' => 
-'None',
+'other' => 'Other:',
 
-'not_enough_fields' => 
-'You must have at least 3 fields: username, screen_name, and email address',
+'parse_error' => 'Parse Error',
 
-'option' => 
-'Option',
+'password_field_warning' => 'Note: If you do not match one of your fields to "Password", random encrypted passwords will be assigned and imported users will need to use the "Forgot Password" link to log in.',
 
-'other' => 
-'Other:',
+'password_warning' => 'Password Warning',
 
-'password_field_warning' => 
-'Note: If you do not match one of your fields to "Password", random encrypted passwords will',
+'password_warning_blurb' => 'If a password was not supplied, your imported members will need to use the "Forgot Password" link to log in. Also, if your ExpressionEngine encryption settings (sha1/md5) do not match the encryption type of your imported data, the passwords will not work, and affected members will need to use the "Forgot Password" link as well. Passwords of type="text" will be encrypted for you during the import.',
 
-'password_warning' => 
-'Password Warning',
+'plaintext_passwords' => 'Passwords are plain text',
 
-'password_warning_blurb' => 
-'If a password was not supplied, your imported members will need to use the "Forgot Password" link',
+'s_required' => 'Required',
 
-'plaintext_passwords' => 
-'Passwords son texto simple',
+'select' => 'Select',
 
-'required_fields' => 
-'* Usuario, Nombre de Pantalla, y Correo Electronico son requeridos.',
+'tab' => 'Tab',
 
-'tab' => 
-'Ficha',
+'time_format' => 'Time Formatting',
 
-'time_format' => 
-'Formato de Tiempo Predeterminado',
+'timezone' => 'Default Timezone',
 
-'timezones' => 
-'Zona Horario Predeterminada',
+'timezones' => 'Default Timezone',
 
-'total_members_imported' => 
-'Total de  %x miembros importados.',
+'total_members_imported' => 'Total of %x members imported.',
 
-'value' => 
-'Valor',
+'unable_to_parse_custom_fields' => 'Unable to parse custom fields.',
 
-'view_in_browser' => 
-'Ver en Navegador',
+'unable_to_parse_xml' => 'Unable to parse XML.',
 
-'view_xml' => 
-'Ver XML',
+'unable_to_read_file' => 'Unable to read file.',
 
-'within_user_record' => 
-'dentro de registro de usuario',
+'upload_problem' => 'Upload failed',
 
-'xml_file' => 
-'Archivo XML',
+'value' => 'Value',
 
-'xml_file_loc' => 
-'Ubicacion del Archivo XML de Miembros',
+'view_in_browser' => 'View in Browser',
 
-'xml_file_loc_blurb' => 
-'La locacion del archivo debe ser relativa al directorio de el panel de control de tu sitio. ej: ../members.xml, si ubicado en la raiz del sitio.',
+'view_xml' => 'View XML',
 
-'xml_imported' => 
-'Datos de XML de Miembros Importados',
+'within_user_record' => 'within user record',
 
-'yes' => 
-'Si',
+'xml_file' => 'XML File',
 
-'your_data' => 
-'Tus Datos',
+'xml_file_loc' => 'XML Member File Location',
 
-'order' => 
-'Orden',
+'xml_file_loc_blurb' => 'The location of the file must be relative to your site\'s control panel folder. e.g.: ../members.xml, if placed at the site root.',
 
-'is_reg_form' => 
-'Formulario de registro',
+'xml_imported' => 'XML Member Data Imported',
 
-'is_public' => 
-'Publico',
+'your_data' => 'Your Data',
 
-'is_required' => 
-'Requerido',
-
-'translate' => 
-'Update',
-
-''=>''
 );
 
-// End of File
+// EOF

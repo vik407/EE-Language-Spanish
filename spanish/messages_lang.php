@@ -1,355 +1,245 @@
 <?php
+
 $lang = array(
 
+'add_block' => 'Add to Blocked',
 
-"storage_status" =>
-"Tienes %x de un total de %y mensajes permitidos.",
+'add_buddy' => 'Add to Buddies',
 
-"storage_percentage" =>
-"Tus carpetas se encuentran %x% llenas",
+'add_member' => 'Add Member',
 
-"messages_reply_all" =>
-"Responder a Todos",
+'allowed_mimes' => 'Allowed Filetypes:',
 
-"edit_list" =>
-"Editar Lista",
+'any' => 'Any',
 
-"no_more_attachments" =>
-"No tienes permitido agregar mas adjuntos.",
+'attach_too_large' => 'The size of your attachments has exceeded the allowed limit.',
 
-"click_preview_to_attach" =>
-"Para adjuntar mas de un artículo haz click en vista previa despues de escoger un archivo",
+'attachments' => 'Attachments',
 
-"view_folder" =>
-"Ver Carpeta",
+'blocked_list' => 'Blocked List',
 
-"view_message" =>
-"Ver Mensaje",
+'blocked_recipients' => 'There were members listed in your Recipients or CC fields that are unable to receive Private Messages. They have been removed by the system and you may try sending again.',
 
-"compose_message" =>
-"Componer Mensaje Nuevo",
+'buddy_list' => 'Buddy List',
 
-"new_message" =>
-"Mensaje Nuevo",
+'bulletin_board' => 'Bulletin Board',
 
-"private_messages" =>
-"Mensajes Privados",
+'bulletin_date' => 'Bulletin Date',
 
-"private_message" =>
-"Mensaje Privado",
+'bulletin_deleted' => 'Bulletin Deleted',
 
-"draft_messages" =>
-"Mensajes de Borrador",
+'bulletin_expires' => 'Bulletin Expires',
 
-"deleted_messages" =>
-"Basura",
+'bulletin_message' => 'Bulletin Message',
 
-"erase_messages" =>
-"Vaciar Basura",
+'bulletin_success' => 'Bulletin Successfully Posted',
 
-"erase_popup" =>
-"Estás seguro que deseas borrar todos los mensajes?",
+'cc' => 'CC',
 
-"track_messages" =>
-"Rastrear Mensajes",
+'characters' => 'Characters',
 
-"edit_folders" =>
-"Editar Carpetas de Mensajes",
+'choose_folder' => 'Choose Folder',
 
-"folder_directions" =>
-"Para borrar un artículo envia el formulario con el nombre de carpeta vacio. Borrar una carpeta borrará todos los mensajes dentro de esta.",
+'click_preview_to_attach' => 'To attach more than one item click preview after choosing a file',
 
-"folder_required" =>
-"(Requerido)",
+'close_window' => 'Close Window',
 
-"missing_required_field" =>
-"Campo Requerido Vacio",
+'compose_message' => 'Compose New Message',
 
-"folder_name" =>
-"Nombre de Carpeta",
+'copy_selected' => 'Copy selected message(s)',
 
-"buddy_list" =>
-"Lista de Amigos",
+'current_attachments' => 'Current Attachment',
 
-"blocked_list" =>
-"Lista de Bloqueados",
+'delete_bulletin' => 'Delete Bulletin',
 
-"folder_page" =>
-"Página",
+'delete_bulletin_popup' => 'Are you sure you want to delete this bulletin?',
 
-"no_messages" =>
-"No Hay Mensajes",
+'delete_selected' => 'Delete selected message(s)',
 
-"message_subject" =>
-"Asunto",
+'deleted_messages' => 'Trash',
 
-"message_sender" =>
-"Remitente",
+'description_charlimit' => '(less than 50 characters)',
 
-"message_date" =>
-"Fecha",
+'draft_message' => 'Save as Draft',
 
-"of" =>
-"de",
+'draft_messages' => 'Draft Messages',
 
-"unlimited_messages" =>
-"Ilimitado",
+'duplicate_message_sent' => 'You have sent the exact same message more than once.',
 
-"messages_percent_full" =>
-"Tus carpetas se encuentran {lang:usage_percent}% llenas",
+'edit_folders' => 'Edit Message Folders',
 
-"messages_folder" =>
-"Carpeta de Mensajes Privados",
+'edit_list' => 'Edit List',
 
-"messages_delete" =>
-"Borrar",
+'empty_body_field' => 'Your message field is empty. You did want to say something, right?',
 
-"messages_move" =>
-"Mover",
+'empty_list' => 'List is Empty',
 
-"messages_copy" =>
-"Copiar",
+'empty_recipients_field' => 'Message must contain at least one recipient.',
 
-"messages_allowed_total" =>
-"Tienes {lang:total_messages} de un total de {lang:max_messages} mensajes permitidos.",
+'empty_subject_field' => 'A subject is required for all messages',
 
-"switch_folder" =>
-"Cambiar Carpeta:",
+'erase_messages' => 'Empty Trash',
 
-"zero_percent" =>
-"0%",
+'erase_popup' => 'Are you sure you want to erase all deleted messages?',
 
-"sent_copy" =>
-"Guardar una copia en la carpeta de mensajes Enviados?",
+'fifty_percent' => '50%',
 
-"track_message" =>
-"Rastrear Mensaje",
+'file_name' => 'File Name',
 
-"hide_cc" =>
-"Esconder CC de los Recibos",
+'file_size' => 'File Size',
 
-"preview_message" =>
-"Vista Previa de Mensaje",
+'file_size_unit' => 'KB',
 
-"guided" =>
-"Guiado",
+'folder_directions' => 'To delete an item submit the form with the folder name blank. Deleting a folder will delete that folder\'s messages.',
 
-"normal" =>
-"Normal",
+'folder_name' => 'Folder Name',
 
-"send_message" =>
-"Enviar Mensaje",
+'folder_page' => 'Page',
 
-"fifty_percent" =>
-"50%",
+'folder_required' => '(Required)',
 
-"hundred_percent" =>
-"100%",
+'folders_updated' => 'Folders Updated',
 
-"choose_folder" =>
-"Escoge Carpeta",
+'forward_date' => 'Date: ',
 
-"close_window" =>
-"Cerrar Ventana",
+'forward_from' => 'From: ',
 
-"search_results" =>
-"Resultados de Búsqueda",
+'forward_header' => '---- Forwarded message ----',
 
-"message_options" =>
-"Opciones",
+'forward_prefix' => 'FWD: ',
 
-"cc" =>
-"CC",
+'forward_subject' => 'Subject: ',
 
-"new_search" =>
-"Realizar Búsqueda Nueva?",
+'guided' => 'Guided',
 
-"attachments" =>
-"Adjuntos",
+'hide_cc' => 'Hide CC from Recipients',
 
-"max_size" =>
-"Tamaño Máximo:",
+'hundred_percent' => '100%',
 
-"message_recipients" =>
-"Recipientes",
+'insert_member_instructions' => 'Click member name to select it',
 
-"message" =>
-"Mensaje",
+'invalid_message' => 'Invalid Message',
 
-"smileys" =>
-"Smileys",
+'invalid_username' => 'One or more of the Screen Names submitted were invalid.',
 
-"empty_recipients_field" =>
-"El mensaje debe contener al menos un recipiente.",
+'max_size' => 'Max Size:',
 
-"empty_subject_field" =>
-"Un asunto es requerido para todos los mensajes",
+'member_description' => 'Description',
 
-"empty_body_field" =>
-"Tu campo de asunto se encuentra vacio. Si querias decir algo, no?",
+'member_group' => 'Member Group',
 
-"sending_limit_warning" =>
-"Has sobre pasado el límite de envio de Mensajes Privados en 24 horas.",
+'member_name' => 'Member Name',
 
-"storage_limit_warning" =>
-"Has alcanzado tu límite de almacenamiento de Mensajes Privados.",
+'member_search' => 'Member Search',
 
-"message_too_large" =>
-"Mensaje es mas grande que el tamaño máximo de %max%",
+'member_usernames' => 'Member Screen Name',
 
-"characters" =>
-"Caracteres",
+'message' => 'Message',
 
-"unable_to_recieve_attach" =>
-"No se Puede Recibir Adjunto",
+'message_date' => 'Date',
 
-"attach_too_large" =>
-"El tamaño de tus adjuntos excede el límite permitido.",
+'message_no_bulletins' => 'No Bulletins',
 
-"too_many_attachments" =>
-"Muchos adjuntos han sido cargados en el sistema de MP. Por favor contacta al administrador.",
+'message_options' => 'Options',
 
-"allowed_mimes" =>
-"Tipos de Archivo Permitidos:",
+'message_recipients' => 'Recipients',
 
-"file_name" =>
-"Nombre de Archivo",
+'message_sender' => 'Sender',
 
-"file_size" =>
-"Tamaño de Archivo",
+'message_subject' => 'Subject',
 
-"remove" =>
-"Remover",
+'message_too_large' => 'Message is larger than the maximum size of %max%',
 
-"current_attachments" =>
-"Adjunto Actual",
+'messages_allowed_total' => 'You have {lang:total_messages} out of a total {lang:max_messages} messages allowed.',
 
-"file_size_unit" =>
-"KB",
+'messages_copy' => 'Copy',
 
-"draft_message" =>
-"Guardar como Borrador",
+'messages_delete' => 'Delete',
 
-"messages_reply" =>
-"Responder",
+'messages_folder' => 'Private Messages Folder',
 
-"messages_forward" =>
-"Reenviar",
+'messages_forward' => 'Forward',
 
-"invalid_message" =>
-"Mensaje Inválido",
+'messages_move' => 'Move',
 
-"reply_prefix" =>
-"RE: ",
+'messages_percent_full' => 'Your folders are {lang:usage_percent}% full',
 
-"forward_prefix" =>
-"RV: ",
+'messages_reply' => 'Reply',
 
-"member_name" =>
-"Nombre de Miembro",
+'messages_reply_all' => 'Reply All',
 
-"member_usernames" =>
-"Nombre de Pantalla de Miembro",
+'messsage_already_sent' => 'Your Message Has Already Been Sent',
 
-"member_description" =>
-"Descripción",
+'missing_required_field' => 'Missing Required Field',
 
-"empty_list" =>
-"Lista Vacia",
+'move_selected' => 'Move selected message(s)',
 
-"add_member" =>
-"Agregar Miembro",
+'new_message' => 'New Message',
 
-"any" =>
-"Cualquier",
+'new_search' => 'Perform New Search?',
 
-"member_search" =>
-"Búsqueda de Miembros",
+'no_messages' => 'No Messages',
 
-"insert_member_instructions" =>
-"Haz click en un nombre de miembro para seleccionarlo",
+'no_more_attachments' => 'You are not permitted to add any more attachments.',
 
-"description_charlimit" =>
-"(menos de 50 caracteres)",
+'no_search_results' => 'Your search resulted in no matches',
 
-"folders_updated" =>
-"Carpetas Actualizadas",
+'normal' => 'Normal',
 
-"blocked_recipients" =>
-"Existen miembros listados en tus campos de Recipientes o CC que no pueden recibir Mensajes Privados. Han sido removidos por el sistema y podrias querer intentar de enviar de nuevo.",
+'of' => 'of',
 
-"overflow_recipients" =>
-"Las bandejas de entrada de los siguientes miembros se encuentran llenas, y para enviar este mensaje debes removerlos de los campos de Recipientes o CC: %overflow_names%",
+'overflow_recipients' => 'The inboxes for the following members are currently full, and to send this message you must remove them from your Recipients or CC fields: %overflow_names%',
 
-"add_buddy" =>
-"Agregar a Amigos",
+'preview_message' => 'Preview Message',
 
-"add_block" =>
-"Agregar a Bloqueados",
+'private_message' => 'Private Message',
 
-"invalid_username" =>
-"Uno o mas de los Nombres de Pantalla enviados son inválidos.",
+'private_messages' => 'Private Messages',
 
-"delete_selected" =>
-"Borrar los mensajes seleccionados",
+'remove' => 'Remove',
 
-"move_selected" =>
-"Mover los mensajes seleccionados",
+'reply_prefix' => 'RE: ',
 
-"copy_selected" =>
-"Copiar los mensajes seleccionados",
+'search_results' => 'Search Results',
 
-"no_search_results" =>
-"Tu búsqueda no retorno resultados",
+'send_bulletin' => 'Send Bulletin',
 
-"bulletin_board" =>
-"Boletin de Anuncios",
+'send_message' => 'Send Message',
 
-"message_no_bulletins" =>
-"Sin Boletines",
+'send_throttle' => 'You are only allowed to send a Private Message every %x seconds',
 
-"send_bulletin" =>
-"Enviar Boletin",
+'sending_limit_warning' => 'You have surpassed the Private Message sending limit for a 24 hour period.',
 
-"bulletin_expires" =>
-"Boletin Expira",
+'sent_copy' => 'Store a copy in the Sent messages folder?',
 
-"bulletin_message" =>
-"Mensaje de Boletin",
+'smileys' => 'Smileys',
 
-"bulletin_date" =>
-"Fecha de Boletin",
+'storage_limit_warning' => 'You have reached your storage limit for Private Messages.',
 
-"bulletin_success" =>
-"Boletin Enviado Exitosamente",
+'storage_percentage' => 'Your folders are %x% full',
 
-"member_group" =>
-"Grupo de Miembro",
+'storage_status' => 'You have %x out of a total %y messages allowed.',
 
-"delete_bulletin" =>
-"Borrar Boletin",
+'switch_folder' => 'Switch Folder: ',
 
-"delete_bulletin_popup" =>
-"Estás seguro que deseas borrar este boletin?",
+'too_many_attachments' => 'Too many attachments have been uploaded into the PM system. Please contact site administrator.',
 
-"bulletin_deleted" =>
-"Boletin Borrado",
+'track_message' => 'Track Message',
 
-"messsage_already_sent" =>
-"Tu Mensaje Ya Ha Sido Enviado",
+'track_messages' => 'Track Messages',
 
-"waiting_period_not_reached" =>
-"Para evitar spam existe  un tiempo de espera de %time% hora antes que miembros nuevos puedan enviar Mensajes Privados.",
+'unable_to_recieve_attach' => 'Unable to Receive Attachment',
 
-"send_throttle" =>
-"Solo tienes permitido enviar un Mensaje Privado cada %y segundos",
+'unlimited_messages' => 'Unlimited',
 
-"duplicate_message_sent" =>
-"Has enviado el mismo mensaje mas de una vez.",
+'view_folder' => 'View Folder',
 
-"translate" =>
-"Update",
+'view_message' => 'View Message',
 
-''=>''
+'waiting_period_not_reached' => 'To prevent spam there is a %time% hour waiting period before new members are allowed to send Private Messages.',
+
+'zero_percent' => '0%',
+
 );
-?>
+
+// EOF

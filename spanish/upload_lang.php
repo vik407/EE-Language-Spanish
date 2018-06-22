@@ -1,65 +1,39 @@
 <?php
+
 $lang = array(
 
+'upload_bad_filename' => 'The file name you submitted already exists on the server.',
 
-'rotate_unsupported' => 
-'Parece que tu servidor no apoya rotacion de imágen.',
+'upload_destination_error' => 'A problem was encountered while attempting to move the uploaded file to the final destination.',
 
-'nonexistent_filepath' => 
-'No se puede ubicar  la imágen especificada.',
+'upload_file_exceeds_form_limit' => 'The uploaded file exceeds the maximum size allowed by the submission form.',
 
-'path_does_not_exist' => 
-'La ruta especificada en tus preferencias de carga de imágenes no es correcta.',
+'upload_file_exceeds_limit' => 'The uploaded file exceeds the maximum allowed size in your PHP configuration file.',
 
-'file_exceeds_ini_limit' => 
-'El archivo cargado excede el tamaño maximo permitido en tu archivo de configuración de PHP',
+'upload_file_partial' => 'The file was only partially uploaded.',
 
-'file_partially_uploaded' => 
-'El archivo solo fue cargado parcialmente',
+'upload_invalid_dimensions' => 'The image you are attempting to upload exceedes the maximum height or width.',
 
-'no_file_selected' => 
-'No has seleccionado un archivo a cargar',
+'upload_invalid_file' => 'File not allowed.',
 
-'file_upload_error' => 
-'Un error de tipo desconocido fué encontrado.',
+'upload_invalid_filesize' => 'The file you are attempting to upload is larger than the permitted size.',
 
-'invalid_filetype' => 
-'El tipo de archivo que intentas cargar no es permitido',
+'upload_no_file_selected' => 'You did not select a file to upload.',
 
-'invalid_filesize' => 
-'El archivo que intentas cargar es mas grande que el tamaño permitido',
+'upload_no_file_types' => 'You have not specified any allowed file types.',
 
-'invalid_dimensions' => 
-'La imágen que intentas cargar excede el ancho o alto permitido',
+'upload_no_filepath' => 'The upload path does not appear to be valid.',
 
-'upload_error' => 
-'Un problema fué encontrado mientras se intentaba cargar tu archivo',
+'upload_no_temp_directory' => 'The temporary folder is missing.',
 
-'copy_error' => 
-'Un error fué encontrado mientras se intentaba sustituir el archivo. Por favor asegurate que el directorio de archivos tenga permisos para escribir.',
+'upload_not_writable' => 'The upload destination folder does not appear to be writable.',
 
-'unsupported_protocol' => 
-'Tu servidor no tiene la capacidad del protocolo de cambio de tamaño especificado en tus preferencias.',
+'upload_stopped_by_extension' => 'The file upload was stopped by extension.',
 
-'jpg_or_png_required' => 
-'El protocolo de cambio de tamaño especificado en tus preferencias solo funciona con imágenes de tipo JPEG o PNG.',
+'upload_unable_to_write_file' => 'The file could not be written to disk.',
 
-'jpg_gif_png_required' => 
-'El protocolo de cambio de tamaño especificado en tus preferencias solo funciona con imágenes de tipo GIF, JPEG o PNG.',
+'upload_userfile_not_set' => 'Unable to find a post variable called userfile.',
 
-'libpath_invalid' => 
-'La ruta a tu directorio de imágenes no es correcto. Por favor entra la ruta correcta en tus preferencias de imágenes.',
-
-'image_resize_failed' => 
-'Cambio de tamaño de imágen fallido. Por favor verifica que tu servidor apoye el protocolo seleccionado y que la ruta a tu libreria de imágen sea correcta.',
-
-'invalid_filecontent' => 
-'El archivo que intentas cargar tiene contenido inválido para su tipo de MIME.',
-
-'translate' => 
-'Update',
-
-''=>''
 );
 
-// End of File
+// EOF

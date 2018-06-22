@@ -1,37 +1,25 @@
 <?php
+
 $lang = array(
 
+'check_spelling' => 'Check Spelling',
 
-"spell_check" =>
-"Correción de Ortografía",
+'no_spelling_errors' => 'No Errors Found',
 
-"check_spelling" =>
-"Corregir Ortografía",
+'revert_spellcheck' => 'Revert to Original',
 
-"save_spellcheck" =>
-"Guardar Cambios",
+'save_spellcheck' => 'Save Changes',
 
-"revert_spellcheck" =>
-"Revertir a Original",
+'spell_check' => 'Spell Check',
 
-"spell_save_edit" =>
-"Guardar Edición",
+'spell_edit_word' => 'Edit Word',
 
-"spell_edit_word" =>
-"Editar Palabra",
+'spell_save_edit' => 'Save Edit',
 
-"unsupported_browser" =>
-"Navegador Sin Soporte",
+'spellcheck_in_progress' => 'Check In Progress...',
 
-"no_spelling_errors" =>
-"No Se Encontraron Errores",
+'unsupported_browser' => 'Unsupported Browser',
 
-"spellcheck_in_progress" =>
-"Corrección en Progreso...",
-
-"translate" =>
-"Update",
-
-''=>''
 );
-?>
+
+// EOF

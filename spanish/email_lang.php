@@ -1,47 +1,71 @@
 <?php
+
 $lang = array(
 
+'em_banned_from_email' => 'The sender email address you submitted is banned.',
 
-'email_module_name' => 
-'Correo Electronico',
+'em_banned_recipient' => 'One or more of your recipient emails is banned.',
 
-'email_module_description' => 
-'Modulo de Usuario de Correo Electronico',
+'em_email_sent' => 'Your email message has been sent.',
 
-'message_required' => 
-'Mensjae de Correo es Requerido',
+'em_interval_warning' => 'You are only allowed to submit email forms every %s seconds',
 
-'em_banned_from_email' => 
-'La direccion de correo del remitente ha sido blockeada.',
+'em_invalid_recipient' => 'One or more of your recipient emails is invalid.',
 
-'em_banned_recipient' => 
-'Una o mas direcciones de correos de tus recipientes han sido blockeadas.',
+'em_limit_exceeded' => 'You have exceeded the number of emails allowed to be sent per day.',
 
-'em_invalid_recipient' => 
-'Una o mas direcciones de correo de tus recipientes son invalidas.',
+'em_no_preview_template_specified' => 'The email tag does not contain the location of your preview template.',
 
-'em_no_valid_recipients' => 
-'Tu correo no tiene recipientes validos.',
+'em_no_valid_recipients' => 'Your email had no valid recipients.',
 
-'em_sender_required' => 
-'Un remitente valido de correo es requerido',
+'em_sender_required' => 'A valid sender email is required',
 
-'em_unauthorized_request' => 
-'No tienes autorizacion para llevar a cabo esta accion',
+'em_unauthorized_request' => 'You are not authorized to perform this action',
 
-'em_limit_exceeded' => 
-'Has excedido el numero de envio de correos permitodos por dia.',
+'email_attachment_missing' => 'Unable to locate the following email attachment: %s',
 
-'em_interval_warning' => 
-'Solo tiene permitido enviar correos cada %s segundos',
+'email_attachment_unreadable' => 'Unable to open this attachment: %s',
 
-'em_email_sent' => 
-'Tu mensaje de correo ha sido enviado.',
+'email_exit_status' => 'Exit status code: %s',
 
-'translate' => 
-'Update',
+'email_failed_smtp_login' => 'Failed to send AUTH LOGIN command. Error: %s',
 
-''=>''
+'email_invalid_address' => 'Invalid email address: %s',
+
+'email_module_description' => 'User Email Module',
+
+'email_module_name' => 'Email',
+
+'email_must_be_array' => 'The email validation method must be passed an array.',
+
+'email_no_hostname' => 'You did not specify a SMTP hostname.',
+
+'email_no_port' => 'You did not specify a SMTP port.',
+
+'email_no_recipients' => 'You must include recipients: To, Cc, or Bcc',
+
+'email_no_smtp_unpw' => 'Error: You must assign a SMTP username and password.',
+
+'email_no_socket' => 'Unable to open a socket to Sendmail. Please check settings.',
+
+'email_send_failure_phpmail' => 'Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.',
+
+'email_send_failure_sendmail' => 'Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.',
+
+'email_send_failure_smtp' => 'Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.',
+
+'email_sent' => 'Your message has been successfully sent using the following protocol: %s',
+
+'email_smtp_auth_pw' => 'Failed to authenticate password. Error: %s',
+
+'email_smtp_auth_un' => 'Failed to authenticate username. Error: %s',
+
+'email_smtp_data_failure' => 'Unable to send data: %s',
+
+'email_smtp_error' => 'The following SMTP error was encountered: %s',
+
+'message_required' => 'Email Message is Required',
+
 );
 
-// End of File
+// EOF

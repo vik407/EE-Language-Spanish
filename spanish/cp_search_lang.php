@@ -1,92 +1,73 @@
 <?php
+
 $lang = array(
 
+'cont_category_management' => 'Category Management',
 
-'design_user_message' => 
-'Plantilla de Mensaje de Usuario',
+'cont_field_group_management' => 'Field Group Management',
 
-'design_system_offline' => 
-'Plantilla de Sistema Apagado',
+'data_clear_caching' => 'Clear Caching',
 
-'design_email_notification' => 
-'Plantilla de Notificacion de Correo',
+'data_php_info' => 'PHP Info',
 
-'design_member_profile_templates' => 
-'Plantilla de Perfil de Miembro',
+'data_recount_stats' => 'Recount Stats',
 
-'member_register_member' => 
-'Registrar Miembro',
+'data_search_and_replace' => 'Search and Replace',
 
-'member_validation' => 
-'Validacion de Miembro',
+'data_sql_manager' => 'Sql Manager',
 
-'member_view_members' => 
-'Ver Miembro',
+'design_email_notification' => 'Email Notification Template',
 
-'member_ip_search' => 
-'Busqueda de IP de Miembro',
+'design_member_profile_templates' => 'Member Profile Template',
 
-'member_custom_profile_fields' => 
-'Campos de Miembro Personalizados',
+'design_system_offline' => 'System Offline Template',
 
-'member_group_manager' => 
-'Administrador de Grupos de Miembro',
+'design_user_message' => 'User Message Template',
 
-'member_config' => 
-'Configuracion de Miembro',
+'exte_index' => 'Extensions',
 
-'member_banning' => 
-'Blockeo de Miembros',
+'file_index' => 'File Manager',
 
-'member_search' => 
-'Busqueda de Miembro',
+'logs_view_cp_log' => 'View Control Panel Log',
 
-'data_sql_manager' => 
-'Administrador de Sql',
+'logs_view_email_log' => 'View Email Log',
 
-'data_search_and_replace' => 
-'Buscar y Reemplazar',
+'logs_view_search_log' => 'View Search Log',
 
-'data_recount_stats' => 
-'Recontar Estadisticas',
+'logs_view_throttle_log' => 'View Throttle Log',
 
-'data_php_info' => 
-'Info PHP',
+'member_banning' => 'Member Banning',
 
-'data_clear_caching' => 
-'Borrar Cache',
+'member_config' => 'Member Configuration',
 
-'file_index' => 
-'Administrador de Achivos',
+'member_custom_profile_fields' => 'Custom Member Fields',
 
-'logs_view_cp_log' => 
-'Ver Registro de Panel de Control',
+'member_group_manager' => 'Member Group Manager',
 
-'logs_view_throttle_log' => 
-'Ver Registro de Throttle',
+'member_ip_search' => 'Member IP Search',
 
-'logs_view_search_log' => 
-'Ver Registro de Busqueda',
+'member_register_member' => 'Register Member',
 
-'logs_view_email_log' => 
-'Ver Registro de Correo',
+'member_search' => 'Member Search',
 
-'util_member_import' => 
-'Importe de Miembros',
+'member_validation' => 'Member Validation',
 
-'util_import_from_mt' => 
-'Importar de MT',
+'member_view_members' => 'View Members',
 
-'util_import_from_xml' => 
-'Importar de XML',
+'members_custom_profile_fields' => 'Custom Member Profile Fields',
 
-'util_translation_tool' => 
-'Utilidad de Traduccion',
+'members_member_group_manager' => 'Member Group Management',
 
-'translate' => 
-'Update',
+'modu_index' => 'Modules',
 
-''=>''
+'plug_index' => 'Plugins',
+
+'util_import_from_xml' => 'Import From XML',
+
+'util_member_import' => 'Member Import',
+
+'util_translation_tool' => 'Translation Utility',
+
 );
 
-// End of File
+// EOF

@@ -1,35 +1,23 @@
 <?php
+
 $lang = array(
 
+'emoticon_alt' => 'Alt tag',
 
-'emoticon_module_name' => 
-'Emoticon',
+'emoticon_glyph' => 'Glyph',
 
-'emoticon_module_description' => 
-'Modulo de emoticon (smiley)',
+'emoticon_heading' => 'Emoticons',
 
-'emoticon_heading' => 
-'Emoticons',
+'emoticon_height' => 'Height',
 
-'emoticon_glyph' => 
-'Simbolo',
+'emoticon_image' => 'Image',
 
-'emoticon_image' => 
-'Imagen',
+'emoticon_module_description' => 'Emoticon (smiley) module',
 
-'emoticon_width' => 
-'Ancho',
+'emoticon_module_name' => 'Emoticon',
 
-'emoticon_height' => 
-'Altura',
+'emoticon_width' => 'Width',
 
-'emoticon_alt' => 
-'Etiqueta Alt',
-
-'translate' => 
-'Update',
-
-''=>''
 );
 
-// End of File
+// EOF

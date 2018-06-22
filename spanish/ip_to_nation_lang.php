@@ -1,49 +1,69 @@
 <?php
+
 $lang = array(
 
+'ban_info' => 'Select the countries you wish to ban. When a country is banned, a person with a IP address corresponding to it will not be able to submit comments, or use your email/tell-a-friend form. They will still be able to view your site.',
 
-"ip_to_nation_module_name" =>
-"IP a Nacion",
+'banlist' => 'Nation Banlist',
 
-"ip_to_nation_module_description" =>
-"Utilidad para asociar direcciones IP a su pais",
+'banlist_updated' => 'Banlist Updated',
 
-"iptonation_missing" =>
-"No se puede encontrar el archivo llamado iptonation.php. Por favor asegura que has cargado todos los componentes de este modulo.",
+'banlist_updated_desc' => 'The banlist has been successfully updated.',
 
-"countryfile_missing" =>
-"No se puede encontrar el archivo llamado country.php en tu carpeta de config",
+'banned_countries' => 'Banned countries',
 
-"ip_search" =>
-"Busqueda de Direccion IP",
+'btn_save_banlist' => 'Save Banlist',
 
-"ip_search_inst" =>
-"Envia una direccion IP para determinar a que pais se debe asociar",
+'btn_search' => 'Search',
 
-"ip_result" =>
-"El IP que has enviado es del siguiente pais:",
+'btn_searching' => 'Searching...',
 
-"manage_banlist" =>
-"Gestiona Tu Lista de Paises Bloqueados",
+'cache_full' => 'Cache is full and must be cleared manually to proceed.',
 
-"country" =>
-"Pais",
+'countryfile_missing' => 'Unable to find the file called country.php in your config folder.',
 
-"ban_info" =>
-"Selecciona los paises que deseas bloquear. Cuando un pais es bloqueado, una persona con un IP correspondiente a ese pais no podra enviar comentarios, o utilizar tu formulario para avisarle a amigos. Todavia podran ver tu sitio.",
+'ip_address_located' => 'IP Address Located',
 
-"ban" =>
-"Bloquear",
+'ip_address_not_located' => 'Unable to Locate IP Address',
 
-"banlist" =>
-"Lista de Naciones Bloqueadas",
+'ip_db_connection_403' => '403 Connection Error, please wait 24 hours before attempting to retrieve database.',
 
-"banlist_updated" =>
-"Lista de bloqueo ha sido actualizada",
+'ip_db_connection_error' => 'Unable to connect to data provider.',
 
-"translate" =>
-"Update",
+'ip_db_downloaded' => 'Downloaded IP database. Unpacking ...',
 
-''=>''
+'ip_db_failed' => 'IP databse update failed',
+
+'ip_db_unpacked' => 'Unpacked IP database. Inserting data ...',
+
+'ip_db_updated' => 'IP database update successful',
+
+'ip_db_updating' => 'Downloading update ...',
+
+'ip_not_found' => 'There are no results for the IP you submitted.',
+
+'ip_not_valid' => 'The IP you submitted is not a valid IP address.',
+
+'ip_result' => 'The IP you submitted is from the following country:',
+
+'ip_search' => 'IP Address Search',
+
+'ip_to_nation_module_name' => 'IP to Nation',
+
+'last_update' => 'Last update: ',
+
+'manage_banlist' => 'Manage Your Banned Country List',
+
+'no_countries' => 'No <b>Countries</b> found.',
+
+'search_for_ip' => 'Search for an IP address',
+
+'search_for_ip_desc' => 'Enter an IP address to determine the country it is associated with.',
+
+'update_info' => 'Updates the IP and country code information. Data source: <a href="%s" title="Data Provider" rel="external">maxmind.com</a>.</em><em><i>The new data will automatically be downloaded and applied. This may take several minutes and increase load on your database.</i></em>',
+
+'update_ips' => 'Update IP database',
+
 );
-?>
+
+// EOF
