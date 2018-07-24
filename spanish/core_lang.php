@@ -9,13 +9,13 @@ $lang = array(
 
 'at' => 'en',
 
-'auto_redirection' => 'Será redireccionado automáticamente en %x segundos',
+'auto_redirection' => 'Serás redireccionado automáticamente en %x segundos',
 
 'back' => 'Volver',
 
 'by' => 'por',
 
-'click_if_no_redirect' => 'Presione aquí si no ha sido redireccionado automáticamente',
+'click_if_no_redirect' => 'Presiona aquí si no has sido redireccionado automáticamente',
 
 'disabled' => 'deshabilitado',
 
@@ -35,7 +35,7 @@ $lang = array(
 
 'no' => 'No',
 
-'not_authorized' => 'No está autorizado para realizar esta acción',
+'not_authorized' => 'No estás autorizado para realizar esta acción',
 
 'not_available' => 'No disponible',
 
@@ -81,41 +81,42 @@ $lang = array(
 /* Errors */
 'captcha_incorrect' => 'No ha enviado la palabra exáctamente como aparece en la imágen',
 
-'captcha_required' => 'You must submit the word that appears in the image',
+'captcha_required' => 'Debes enviar la palabra que aparece en la imagen',
 
-'checksum_changed_accept' => 'Accept Changes',
 
-'checksum_changed_warning' => 'One or more core files have been altered:',
+'checksum_changed_accept' => 'Aceptar cambios',
 
-'checksum_email_message' => 'ExpressionEngine has detected the modification of a core file on: {url}
+'checksum_changed_warning' => 'Uno o más archivos core han sido alterados:',
 
-The following files are affected:
+'checksum_email_message' => 'ExpressionEngine ha detectado la modificación de un archivo core en: {url}
+
+Los siguientes archivos están afectados:
 {changed}
 
-If you made these changes, please accept the modifications on the control panel homepage. If you did not alter these files it may indicate a hacking attempt. Check the files for any suspicious contents (JavaScript or iFrames) and contact ExpressionEngine support:
-https://expressionengine.com/support',
+Si realizaste estos cambios, acepta las modificaciones en la página de inicio del panel de control. Si no modificaste estos archivos, puedes indicar un intento de piratería. Compruebe los archivos en busca de cualquier contenido sospechoso (JavaScript o iFrames) y ponte en contacto con el soporte de ExpressionEngine:
+https://expressionengine.com/support ',
 
-'checksum_email_subject' => 'A core file was modified on your site.',
+'checksum_email_subject' => 'Se modificó un archivo core en tu sitio.',
 
-'csrf_token_expired' => 'This form has expired. Please refresh and try again.',
+'csrf_token_expired' => 'Este formulario ha expirado. Por favor, actualiza y prueba de nuevo.',
 
-'current_password_incorrect' => 'Your current password was not submitted correctly.',
+'current_password_incorrect' => 'Tu contraseña actual no se envió correctamente.',
 
-'current_password_required' => 'Your current password is required.',
+'current_password_required' => 'Se requiere tu contraseña actual.',
 
-'curl_not_installed' => 'cURL is not installed on your server',
+'curl_not_installed' => 'cURL no está instalado en tu servidor',
 
 'error' => 'Error',
 
 'file_not_found' => 'File %s does not exist.',
 
-'general_error' => 'The following errors were encountered',
+'general_error' => 'Se encontraron los siguientes errores',
 
-'generic_fatal_error' => 'Something has gone wrong and this URL cannot be processed at this time.',
+'generic_fatal_error' => 'Algo ha salido mal y esta URL no se puede procesar en este momento.',
 
-'invalid_action' => 'The action you have requested is invalid.',
+'invalid_action' => 'La acción que ha solicitado no es válida.',
 
-'invalid_url' => 'The URL you submitted is not valid.',
+'invalid_url' => 'La URL que ha enviado no es válida.',
 
 'license_disabled' => 'Your software license has been disabled or upgraded. Please visit your <a href="%s">License & Registration</a> page and install the active license from your <a href="%s" title="download account" rel="external">Download Account</a>. If this error persists, please contact your system administrator.',
 
@@ -143,15 +144,15 @@ https://expressionengine.com/support',
 
 
 /* Member Groups */
-'banned' => 'Banned',
+'banned' => 'Prohibido',
 
-'guests' => 'Guests',
+'guests' => 'Invitados',
 
-'members' => 'Members',
+'members' => 'Miembros',
 
-'pending' => 'Pending',
+'pending' => 'Pendiente',
 
-'super_admins' => 'Super Admins',
+'super_admins' => 'Super Administrador',
 
 
 /* Template.php */
@@ -177,17 +178,15 @@ https://expressionengine.com/support',
 
 
 /* Email */
-'error_sending_email' => 'Unable to send email at this time.',
+'error_sending_email' => 'No se puede enviar el correo electrónico en este momento.',
 
-'forgotten_email_sent' => 'If this email address is associated with an account, instructions for resetting your password have just been emailed to you.',
+'forgotten_email_sent' => 'Si esta dirección de correo electrónico está asociada a una cuenta, las instrucciones para restablecer su contraseña acaban de ser enviadas por correo electrónico.',
 
-'no_email_found' => 'The email address you submitted was not found in the database.',
+'no_email_found' => 'La dirección de correo electrónico que envió no se encontró en la base de datos.',
 
-'password_has_been_reset' => 'Your password was reset and a new one has been emailed to you.',
+'password_has_been_reset' => 'Tu contraseña ha sido restablecida y le hemos enviado una nueva por correo electrónico.',
 
-'password_reset_flood_lock' => 'You have tried to reset your password too many times today. Please check your inbox and spam folders for previous requests, or contact the site administrator.',
-
-'your_new_login_info' => 'Login information',
+'password_reset_flood_lock' => 'Has intentado restablecer su contraseña demasiadas veces hoy. Verifica las carpetas de entrada y correo no deseado para las solicitudes anteriores, o ponte en contacto con el administrador del sitio. ',
 
 
 /* Timezone */
