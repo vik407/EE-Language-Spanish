@@ -108,7 +108,7 @@ https://expressionengine.com/support ',
 
 'error' => 'Error',
 
-'file_not_found' => 'File %s does not exist.',
+'file_not_found' => 'El archivo %s no existe.',
 
 'general_error' => 'Se encontraron los siguientes errores',
 
@@ -210,39 +210,39 @@ https://expressionengine.com/support ',
 
 'future' => 'in %s',
 
-'ago' => '%x ago',
+'ago' => '%x atrás',
 
-'year' => 'year',
+'year' => 'año',
 
-'years' => 'years',
+'years' => 'años',
 
-'month' => 'month',
+'month' => 'mes',
 
-'months' => 'months',
+'months' => 'meses',
 
 'fortnight' => 'fortnight',
 
 'fortnights' => 'fortnights',
 
-'week' => 'week',
+'week' => 'semana',
 
-'weeks' => 'weeks',
+'weeks' => 'semanas',
 
-'day' => 'day',
+'day' => 'dia',
 
-'days' => 'days',
+'days' => 'dias',
 
-'hour' => 'hour',
+'hour' => 'hora',
 
-'hours' => 'hours',
+'hours' => 'horas',
 
-'minute' => 'minute',
+'minute' => 'minuto',
 
-'minutes' => 'minutes',
+'minutes' => 'minutos',
 
-'second' => 'second',
+'second' => 'segundo',
 
-'seconds' => 'seconds',
+'seconds' => 'segundos',
 
 'am' => 'am',
 
@@ -252,55 +252,55 @@ https://expressionengine.com/support ',
 
 'PM' => 'PM',
 
-'Sun' => 'Sun',
+'Sun' => 'Dom',
 
-'Mon' => 'Mon',
+'Mon' => 'Lun',
 
-'Tue' => 'Tue',
+'Tue' => 'Mar',
 
-'Wed' => 'Wed',
+'Wed' => 'Mie',
 
-'Thu' => 'Thu',
+'Thu' => 'Jue',
 
-'Fri' => 'Fri',
+'Fri' => 'Vie',
 
-'Sat' => 'Sat',
+'Sat' => 'Sab',
 
 'Su' => 'S',
 
-'Mo' => 'M',
+'Mo' => 'L',
 
-'Tu' => 'T',
+'Tu' => 'M',
 
-'We' => 'W',
+'We' => 'M',
 
-'Th' => 'T',
+'Th' => 'J',
 
-'Fr' => 'F',
+'Fr' => 'V',
 
 'Sa' => 'S',
 
-'Sunday' => 'Sunday',
+'Sunday' => 'Domingo',
 
-'Monday' => 'Monday',
+'Monday' => 'Lunes',
 
-'Tuesday' => 'Tuesday',
+'Tuesday' => 'Martes',
 
-'Wednesday' => 'Wednesday',
+'Wednesday' => 'Miércoles',
 
-'Thursday' => 'Thursday',
+'Thursday' => 'Jueves',
 
-'Friday' => 'Friday',
+'Friday' => 'Viernes',
 
-'Saturday' => 'Saturday',
+'Saturday' => 'Sábado',
 
-'Jan' => 'Jan',
+'Jan' => 'Ene',
 
 'Feb' => 'Feb',
 
 'Mar' => 'Mar',
 
-'Apr' => 'Apr',
+'Apr' => 'Abr',
 
 'May' => 'May',
 
@@ -308,7 +308,7 @@ https://expressionengine.com/support ',
 
 'Jul' => 'Jul',
 
-'Aug' => 'Aug',
+'Aug' => 'Ago',
 
 'Sep' => 'Sep',
 
@@ -316,31 +316,31 @@ https://expressionengine.com/support ',
 
 'Nov' => 'Nov',
 
-'Dec' => 'Dec',
+'Dec' => 'Dic',
 
-'January' => 'January',
+'January' => 'Enero',
 
-'February' => 'February',
+'February' => 'Febrero',
 
-'March' => 'March',
+'March' => 'Marzo',
 
-'April' => 'April',
+'April' => 'Abril',
 
-'May_l' => 'May',
+'May_l' => 'Mayo',
 
-'June' => 'June',
+'June' => 'Junio',
 
-'July' => 'July',
+'July' => 'Julio',
 
-'August' => 'August',
+'August' => 'Agosto',
 
-'September' => 'September',
+'September' => 'Septiembre',
 
-'October' => 'October',
+'October' => 'Octubre',
 
-'November' => 'November',
+'November' => 'Noviembre',
 
-'December' => 'December',
+'December' => 'Diciembre',
 
 /* - - - - - - - - - - - - - - - No necesita traducción */
 
