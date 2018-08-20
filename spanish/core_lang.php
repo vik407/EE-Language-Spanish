@@ -126,11 +126,11 @@ https://expressionengine.com/support ',
 
 'new_version_error' => 'An unexpected error occurred attempting to download the current ExpressionEngine version number. Please visit your <a href="%s" title="download account" rel="external">Download Account</a> to verify you are on the current version. If this error persists, please contact your system administrator',
 
-'nonexistent_page' => 'The page you requested was not found',
+'nonexistent_page' => 'No es posible encontrar la página solicitada',
 
 'redirect_xss_fail' => 'The link you are being redirected to contained some potentially malicious or dangerous code. We recommend you hit the back button and email %s to report the link that generated this message.',
 
-'submission_error' => 'The form you submitted contained the following errors',
+'submission_error' => 'El formulario enviado contenía los siguientes errores',
 
 'theme_folder_wrong' => 'Your theme folder path is incorrect. Please go to <a href="%s">URL and Path Settings</a> and check the <mark>Themes Path</mark> and <mark>Themes URL</mark>.',
 
@@ -156,25 +156,25 @@ https://expressionengine.com/support ',
 
 
 /* Template.php */
-'error_fix_module_processing' => 'Please check that the \'%x\' module is installed and that \'%y\' is an available method of the module',
+'error_fix_module_processing' => 'Compruebe que el módulo \'%x\' está instalado y que \'%y\' es un método disponible del módulo',
 
-'error_fix_syntax' => 'Please correct the syntax in your template.',
+'error_fix_syntax' => 'Corrija la sintaxis en su plantilla.',
 
-'error_invalid_conditional' => 'You have an invalid conditional in your template. Please review your conditionals for an unclosed string, invalid operators, a missing }, or a missing {/if}.',
+'error_invalid_conditional' => 'Tiene un condicional inválido en su plantilla. Revise sus condicionales para una cadena no cerrada, operadores no válidos, una falta}, o una falta {/if}.',
 
-'error_layout_too_late' => 'Plugin or module tag found before layout declaration. Please move the layout tag to the top of your template.',
+'error_layout_too_late' => 'Plugin o etiqueta de módulo encontrada antes de la declaración de disposición. Mueva la etiqueta de diseño a la parte superior de su plantilla. ',
 
-'error_multiple_layouts' => 'Multiple Layouts found, please ensure you only have one layout tag per template',
+'error_multiple_layouts' => 'Se encontraron múltiples diseños, asegúrese de tener solo una etiqueta de diseño por plantilla',
 
-'error_tag_module_processing' => 'The following tag cannot be processed:',
+'error_tag_module_processing' => 'La siguiente etiqueta no se puede procesar:',
 
-'error_tag_syntax' => 'The following tag has a syntax error:',
+'error_tag_syntax' => 'La siguiente etiqueta tiene un error de sintaxis:',
 
-'layout_contents_reserved' => 'The name "contents" is reserved for the template data and cannot be used as a layout variable (i.e. {layout:set name="contents"} or {layout="foo/bar" contents=""}).',
+'layout_contents_reserved' => 'El nombre "contents" está reservado para los datos de la plantilla y no puede utilizarse como una variable de diseño (es decir, {layout: set name = "contents"} o {layout = "foo / bar" contents = "" }). ',
 
-'template_load_order' => 'Template load order',
+'template_load_order' => 'Orden de carga de la plantilla',
 
-'template_loop' => 'You have caused a template loop due to improperly nested sub-templates (\'%s\' recursively called)',
+'template_loop' => 'Ha causado un bucle de plantilla debido a sub-plantillas anidadas incorrectamente (\'%s\' recursivamente llamado)',
 
 
 /* Email */
@@ -190,25 +190,25 @@ https://expressionengine.com/support ',
 
 
 /* Timezone */
-'invalid_date_format' => 'The date format you submitted is invalid.',
+'invalid_date_format' => 'El formato de fecha que ha enviado no es válido.',
 
-'invalid_timezone' => 'The timezone you submitted is invalid.',
+'invalid_timezone' => 'La zona horaria que enviaste no es válida.',
 
-'no_timezones' => 'No Timezones',
+'no_timezones' => 'Sin zonas horarias',
 
-'select_timezone' => 'Select Timezone',
+'select_timezone' => 'Seleccionar zona horaria',
 
 
 /* Date */
-'singular' => 'one',
+'singular' => 'uno',
 
-'less_than' => 'less than',
+'less_than' => 'menos que',
 
-'about' => 'about',
+'about' => 'acerca de',
 
-'past' => '%s ago',
+'past' => '%s atrás',
 
-'future' => 'in %s',
+'future' => 'en %s',
 
 'ago' => '%x atrás',
 
@@ -220,9 +220,9 @@ https://expressionengine.com/support ',
 
 'months' => 'meses',
 
-'fortnight' => 'fortnight',
+'fortnight' => 'quincena',
 
-'fortnights' => 'fortnights',
+'fortnights' => 'quincenas',
 
 'week' => 'semana',
 
