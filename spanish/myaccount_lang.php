@@ -274,31 +274,31 @@ $lang = array(
 
 'main_menu_manager_updated' => 'Tab Manager has been updated',
 
-'member_email' => 'Email Member',
+'member_email' => 'Miembro de correo electrónico',
 
-'member_group_assignment' => 'Member Group Assignment',
+'member_group_assignment' => 'Asignación de grupo de miembros',
 
-'member_group_default' => 'Member group default',
+'member_group_default' => 'Grupo de miembros predeterminado',
 
-'member_group_warning' => 'Be very careful assigning this',
+'member_group_warning' => 'Tenga mucho cuidado al asignar esto',
 
-'user_ip_address' => 'IP Address',
+'user_ip_address' => 'Dirección IP',
 
-'member_preferences' => 'Member Preferences',
+'member_preferences' => 'Preferencias de miembros',
 
-'member_search_form' => 'Member search form',
+'member_search_form' => 'Formulario de búsqueda de miembros',
 
-'member_stats' => 'Account Statistics For:',
+'member_stats' => 'Estadísticas de cuenta para:',
 
-'missing_current_password' => 'In order to make changes you must submit the current password',
+'missing_current_password' => 'Para realizar cambios debe enviar la contraseña actual',
 
-'missing_email' => 'You must submit an email address',
+'missing_email' => 'Debes enviar una dirección de correo electrónico',
 
-'missing_password' => 'You must submit a password',
+'missing_password' => 'Debe enviar una contraseña',
 
-'missing_username' => 'You must submit a username',
+'missing_username' => 'Debes enviar un nombre de usuario',
 
-'missmatched_passwords' => 'The password and password confirmation do not match',
+'missmatched_passwords' => 'Las contraseñas no coinciden',
 
 'month' => 'Month',
 
