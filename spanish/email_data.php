@@ -197,9 +197,7 @@ if ( ! function_exists('password_changed_notification'))
 return <<<EOF
 {name},
 
-Your password was just changed.
-
-If you didn't make this change yourself, please contact an administrator right away.
+Tu contraseña ha sido cambiada. Si no lo has hecho tu mismo, ponte en contacto con un administrador de inmediato.
 
 {site_name}
 {site_url}
